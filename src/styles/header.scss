@@ -34,28 +34,32 @@
 
 .search-icon {
   position: absolute;
-  color: var(--dark-grey);
-  top: 23px;
+  color: var(--light-grey);
+  top: 19px;
   margin-left: 10px;
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
 }
 
 .header-input {
   width: 638px;
   height: 62px;
   border-radius: 16px;
-  background-color: var(--footer);
-  color: var(--dark-grey);
+  color: var(--light-grey);
   font-size: var(--label-size-medium);
   font-weight: var(--fw-regular);
+  background-color: var(--footer);
   border: none;
   outline: none;
-  padding-left: 30px;
+  padding-left: 40px;
 
   @include sm {
     width: 350px;
   }
+}
+
+::placeholder {
+  color: var(--light-grey);
 }
 
 .header-button-container {

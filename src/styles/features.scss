@@ -1,0 +1,82 @@
+@import "./responsive.scss";
+
+.features-container {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+}
+
+.features-title {
+  padding-left: 80px;
+  padding-top: 54px;
+}
+
+.features-container h1 {
+  font-size: var(--heading-size-xxl);
+  font-weight: var(--fw-bold);
+}
+
+.features-list-container {
+  padding-top: 70px;
+  padding-left: 80px;
+}
+
+.features-lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+
+
+  @include sm {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.features-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background-color: #8170f7;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.features-globe {
+  width: 40px;
+  height: 40px;
+}
+
+.features-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-left: 80px;
+  padding-bottom: 84px;
+
+  
+  @include md {
+    padding-left: 40px;
+  }
+
+}
+
+.features-create {
+  font-size: 24px;
+  font-weight: var(--fw-semi-bold);
+
+  @include md {
+    font-size: 20px;
+  }
+}
+
+.features-donations {
+  font-size: 20px;
+  font-weight: var(--fw-regular);
+
+  @include md {
+    font-size: 18px;
+  }
+}
