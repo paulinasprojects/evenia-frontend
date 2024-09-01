@@ -1,0 +1,106 @@
+@import "./responsive.scss";
+
+.header {
+  padding: 20px;
+  background-color: var(--header);
+  display: flex;
+  align-items: center;
+
+  @include sm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  @include md {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+}
+
+.header-logo {
+  margin-left: 80px;
+  margin-right: 105px;
+  width: 120px;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  color: var(--dark-grey);
+  top: 23px;
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.header-input {
+  width: 638px;
+  height: 62px;
+  border-radius: 16px;
+  background-color: var(--footer);
+  color: var(--dark-grey);
+  font-size: var(--label-size-medium);
+  font-weight: var(--fw-regular);
+  border: none;
+  outline: none;
+  padding-left: 30px;
+
+  @include sm {
+    width: 350px;
+  }
+}
+
+.header-button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 111px;
+  margin-left: 55px;
+
+  @include md {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.create-button {
+  background: transparent;
+  color: var(--majorelle-blue);
+  font-size: var(--label-size-lg);
+  font-weight: var(--fw-semi-bold);
+  width: 174px;
+  height: 59px;
+  border-radius: 150px;
+  border: 2px solid var(--majorelle-blue);
+  cursor: pointer;
+}
+
+.create-button:hover {
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+}
+
+.signin-button {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  font-size: var(--label-size-lg);
+  font-weight: var(--fw-semi-bold);
+  border-radius: 100px;
+  height: 59px;
+  width: 127px;
+  border: none;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background: transparent;
+  border: 2px solid var(--majorelle-blue);
+}

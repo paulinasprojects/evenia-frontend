@@ -1,0 +1,42 @@
+@import "./responsive.scss";
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--footer);
+  display: flex;
+
+  @include sm {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.footer-logo {
+  width: 120px;
+  margin-left: 72px;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: var(--paragraph-size-sm);
+  font-weight: var(--fw-regular);
+  color: var(--white);
+  margin-left: auto;
+  margin-right: 72px;
+
+  @include sm {
+    white-space: nowrap;
+  }
+}
+
+.footer-link:hover {
+  color: var(--majorelle-blue);
+}
