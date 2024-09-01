@@ -1,0 +1,130 @@
+@import "./responsive.scss";
+
+.hero-container {
+  padding-top: 100px;
+  display: flex;
+  gap: 275px;
+
+  @include md {
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+
+  @include md {
+    align-items: center;
+    padding-left: 0;
+  }
+
+}
+
+.hero-left h1 {
+  font-weight: var(--fw-bold);
+  font-size: 72px;
+  color: var(--white);
+
+  @include sm {
+   font-size: 60px;  
+  }
+}
+
+.hero-left h2 {
+  font-size: 72px;
+  font-weight: var(--fw-bold);
+  color: var(--majorelle-blue);
+  padding-bottom: 40px;
+
+  @include sm {
+    font-size: 60px;  
+   }
+}
+
+.hero-left span {
+  font-size: var(--label-size-lg);
+  color: var(--white);
+  font-weight: var(--fw-regular);
+  white-space: nowrap;
+
+  @include sm {
+    font-size: var(--label-size-sm);  
+   }
+}
+
+.hero-left button {
+  width: 163px;
+  height: 59px;
+  color: var(--white);
+  font-size: var(--paragraph-size-lg);
+  font-weight: var(--fw-semi-bold);
+  background-color: var(--majorelle-blue);
+  border: none;
+  border-radius: 120px;
+  margin-top: 40px;
+  cursor: pointer;
+
+  @include md {
+    margin-bottom: 20px;
+  }
+}
+
+.hero-left button:hover {
+  background: transparent;
+  border: 2px solid var(--majorelle-blue);
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-image {
+  @include md {
+    display: none;
+  }
+}
+
+.hero-rectangle {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+
+  @include md {
+    display: none;
+  }
+}
+
+.hero-lines {
+  position: absolute;
+  top: -7px;
+  right: -90px;
+
+
+  @include md {
+    display: none;
+  }
+}
+
+.hero-ellipse {
+  position: absolute;
+  bottom: 50px;
+  left: -20px;
+
+  @include md {
+    display: none;
+  }
+}
+
+.hero-vector {
+  position: absolute;
+  bottom: 120px;
+  left: -20px;
+
+  @include md {
+    display: none;
+  }
+}
