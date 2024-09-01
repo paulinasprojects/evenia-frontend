@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  /*  Primary Colors  */
+
+  --majorelle-blue: #624CF5;
+  --coral-reef: #FA776C;
+
+  /* Secondary Colors  */
+
+  --vivid-cerulean: #02A6FF;
+  --portland-orange: #FF4D2D;
+  --cyber-yellow: #FFD507;
+  --dark-lemon-lime: #75BF15;
+
+  /* Dark Colors  */
+
+  --light-grey: #AAAAAA;
+  --card: #292451;
+  --footer: #241E4D;
+  --header: #161239;
+  --background: #161239;
+
+
+  /* Text Colors */
+
+  --black: #000;
+  --subdue: #545454;
+  --dark-grey: #757575;
+  --critical: #FF4D2D;
+  --disabled: #AFAFAF;
+  --link: #276EF1;
+  --white-gray: #F6F6F6;
+  --white: #FFF;
+
+  /* Typography */
+  
+  --heading-size-xxl: 2.5rem; /* 40px */
+  --heading-size-xl: 2.25rem; /* 36px */
+  --heading-size-lg: 2rem; /* 32px */
+  --heading-size-medium: 1.75rem; /* 28px */
+  --heading-size-sm: 1.5rem; /* 24px */
+  --heading-size-xs: 1.25rem; /* 20px */
+
+  --label-size-lg: 1.125rem; /* 18px */
+  --label-size-medium: 1rem; /* 16px */
+  --label-size-sm: 0.875rem; /* 14px */
+  --label-size-xs: 0.75rem; /* 12px */
+
+  --paragraph-size-lg: 1.125rem; /* 18px */
+  --paragraph-size-medium: 1rem; /* 16px */
+  --paragraph-size-sm: 0.875rem; /* 14px */
+  --paragraph-size-xs: 0.75rem; /* 12px */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: bold;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
