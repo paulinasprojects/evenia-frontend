@@ -1,3 +1,4 @@
+import Events from "@/components/home/events";
 import Features from "@/components/home/features";
 import Hero from "@/components/home/hero";
 import OurPartners from "@/components/home/our-partners";
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Hero/>
       <Features/>
       <OurPartners/>
+      <Events/>
     </div>
   )
 }

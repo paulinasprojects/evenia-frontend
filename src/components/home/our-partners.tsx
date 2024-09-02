@@ -11,7 +11,7 @@ import usaTodayLogo from '/usa-today-logo.png';
 
 const OurPartners = () => {
   return (
-    <div>
+    <div className="partners-div-container">
       <div className="partners-title-container">
         <h1 className="partners-title">Our Partners</h1>
       </div>

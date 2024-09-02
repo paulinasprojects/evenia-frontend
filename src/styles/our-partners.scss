@@ -1,8 +1,12 @@
 @import "./responsive.scss";
 
+.partners-div-container {
+  background-color: #010c29;
+}
+
 .partners-title-container {
   padding-top: 90px;
-  padding-left: 80px;
+  padding-left: 125px;
   padding-bottom: 105px;
 
   @include sm {
@@ -20,7 +24,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
-  // justify-content: center;
   gap: 40px;
   padding-left: 80px;
   padding-right: 219px;

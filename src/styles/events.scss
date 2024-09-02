@@ -1,0 +1,16 @@
+@import "./responsive.scss";
+
+.events-container {
+  background-color: var(--header);
+}
+
+.events-title-container {
+  padding-top: 54px;
+  padding-left: 80px;
+}
+
+.events-title {
+  color: var(--white);
+  font-size: var(--heading-size-xxl);
+  font-weight: var(--fw-bold);
+}
