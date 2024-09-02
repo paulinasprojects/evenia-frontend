@@ -1,0 +1,42 @@
+@import "./responsive.scss";
+
+.partners-title-container {
+  padding-top: 90px;
+  padding-left: 80px;
+  padding-bottom: 105px;
+
+  @include sm {
+    padding-bottom: 80px;
+  }
+}
+
+.partners-title {
+  color: var(--white);
+  font-size: var(--heading-size-xxl);
+  font-weight: var(--fw-bold);
+}
+
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  // justify-content: center;
+  gap: 40px;
+  padding-left: 80px;
+  padding-right: 219px;
+  padding-bottom: 95px;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @include sm {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
