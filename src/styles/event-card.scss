@@ -37,6 +37,7 @@
   font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
+  border: none;
 }
 
 
@@ -50,6 +51,7 @@
   height: 342px;
   background-color: #2a2551;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .event-card {

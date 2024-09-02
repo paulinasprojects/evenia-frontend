@@ -14,67 +14,82 @@ import eventImageTwelve from '/event-image-twelve.png'
 
 
 import "@/styles/event-card.scss";
+import { useNavigate } from "react-router-dom";
 
 const AllEvents = () => {
+  const navigate = useNavigate();
+
   return (
     <> 
     <div className="all-events">
       <EventCard 
+        onClick={() => navigate("/detail/1")} 
         image={eventImage} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")} 
         image={eventImageTwo} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")} 
         image={eventImageThree} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")} 
         image={eventImageFour} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageFive} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageSix} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
       <EventCard 
+        onClick={() => navigate("/detail/1")} 
         image={eventImageSeven} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageEight} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageNine} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageTen} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageEleven} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 
         author="Jalu Detya"/>
-      <EventCard 
+      <EventCard
+        onClick={() => navigate("/detail/1")}  
         image={eventImageTwelve} 
         date="Mon, Oct 25, 8 : 30 AM" 
         title="Critical Thinking Skills For All Profesional" 

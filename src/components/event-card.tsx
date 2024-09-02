@@ -5,12 +5,13 @@ interface EventCardProps {
   title?: string;
   author?: string;
   image?: string;
+  onClick?: () => void;
 }
 
 
-const EventCard = ({ date, title, author, image }: EventCardProps) => {
+const EventCard = ({ date, title, author, image, onClick }: EventCardProps) => {
   return (
-    <div className="event-card-container">
+    <div className="event-card-container" onClick={onClick}>
       <img src={image} alt="" />
       <div className="event-card">
         <span className="event-date">{date}</span>
