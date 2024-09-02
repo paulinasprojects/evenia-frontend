@@ -85,3 +85,55 @@
   background: transparent;
   border: 2px solid var(--majorelle-blue);
 }
+
+.event-description-container {
+  display: flex;
+  gap: 165px;
+  color: var(--white);
+  padding-top: 134px;
+  padding-left: 80px;
+  padding-bottom: 75px;
+
+  @include md {
+    padding-top: 60px;
+    padding-left: 50px;
+  }
+
+  @include sm {
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 60px;
+    gap: 80px;
+  }
+}
+
+.event-description-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 15px;
+}
+
+.event-description-learn {
+  font-size: 20px;
+  font-weight: var(--fw-bold);
+}
+
+.event-description-right {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+  font-size: 18px;
+  font-weight: var(--fw-regular);
+}
+
+.event-description-date-time {
+  display: flex;
+  gap: 24px;
+}
+
+.calendar-icon {
+  width: 48px;
+  height: 48px;
+  fill: var(--majorelle-blue);
+}
