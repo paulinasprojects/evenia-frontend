@@ -1,3 +1,4 @@
+import EventAuthorOrganization from '@/components/event-author-organization';
 import EventDescription from '@/components/event-description';
 import RelatedEvents from '@/components/related-events';
 import SingleDetails from '@/components/single-details';
@@ -10,6 +11,7 @@ const EventDetailsPage = () => {
       <SingleDetails/>
       <EventDescription/>
       <RelatedEvents/>
+      <EventAuthorOrganization/>
     </>
   )
 }
