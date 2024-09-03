@@ -1,0 +1,67 @@
+@import "./responsive.scss";
+
+.user-events-container {
+  background-color: var(--header);
+}
+
+.user-list-events-title-container {
+  padding-top: 54px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+
+.user-list-events-title {
+  color: var(--white);
+  font-size: var(--heading-size-lg);
+  font-weight: var(--fw-bold);
+
+  @include md {
+    text-align: center;
+  }
+
+  @include sm {
+    text-align: initial;
+    padding-left: 24px;
+  }
+}
+
+.user-list-events-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 80px;
+  padding-right: 64px;
+  padding-bottom: 40px;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-right: 0;
+  }
+
+  @include sm {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.user-list-event-button-container {
+  text-align: center;
+  padding-bottom: 54px;
+}
+
+.user-list-event-button-container button {
+  width: 135px;
+  height: 59px;
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+  border-radius: 50px;
+  font-size: var(--label-size-lg);
+  font-weight: var(--fw-semi-bold);
+  cursor: pointer;
+  border: none;
+}
+
+.see-more-button:hover {
+  background: transparent;
+  border: 2px solid var(--majorelle-blue);
+}

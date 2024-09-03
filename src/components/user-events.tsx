@@ -1,22 +1,23 @@
 import { useNavigate } from "react-router-dom";
-import eventImage from '/event-image.png';
-import eventImageTwo from '/event-image-two.png'
-import eventImageThree from '/event-image-three.png'
-import eventImageFour from '/event-image-four.png'
-
+import eventImage from '/event-image-seven.png';
+import eventImageTwo from '/event-image-eight.png'
+import eventImageThree from '/event-image-nine.png'
+import eventImageFour from '/event-image-ten.png'
 import EventCard from "./event-card";
 
-const RelatedEvents = () => {
-  
+import "@/styles/user-events.scss";
+
+const UserEvents = () => {
+
   const navigate = useNavigate();
 
   return (
-    <div className="related-events-container">
-      <div className="related-events-title-container">
-        <h1 className="related-events-title">Related Events</h1>
+    <div className="user-events-container">
+      <div className="user-list-events-title-container">
+        <h1 className="user-list-events-title">User List Events</h1>
       </div>
-      <div className="related-event-card-container">
-        <EventCard 
+      <div className="user-list-events-card-container">
+        <EventCard
           onClick={() => navigate("/detail/1")} 
           image={eventImage} 
           date="Mon, Oct 25, 8 : 30 AM" 
@@ -45,11 +46,11 @@ const RelatedEvents = () => {
           author="Jalu Detya"
         />
       </div>
-        <div className="related-events-button-container">
+        <div className="user-list-event-button-container">
           <button className="see-more-button">See More</button>
         </div>
     </div>
   )
 }
 
-export default RelatedEvents
+export default UserEvents

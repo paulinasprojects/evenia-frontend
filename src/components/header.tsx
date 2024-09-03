@@ -5,7 +5,7 @@ import userimg from '/user-image.png'
 import "@/styles/header.scss";
 import logo from '/evenia-logo.svg';
 
-const user = false;
+const user = true;
 
 const Header = () => {
 

@@ -1,0 +1,67 @@
+@import "./responsive.scss";
+
+.user-profile-container {
+  padding-top: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: var(--white);
+
+  @include sm {
+    padding-left: 20px;
+  }
+}
+
+.user-profile-name {
+  font-size: 24px;
+  font-weight: var(--fw-semi-bold);
+}
+
+.user-profile-description {
+  font-size: var(--heading-size-xs);
+  font-weight: var(--fw-regular);
+}
+
+.user-profile-button-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 108px;
+}
+
+.user-profile-follow-button {
+  border: 2px solid var(--majorelle-blue);
+  border-radius: 50px;
+  background: transparent;
+  width: 108px;
+  height: 59px;
+  color: var(--majorelle-blue);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  cursor: pointer;
+}
+
+.user-profile-follow-button:hover {
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+}
+
+.user-profile-contact-button {
+  color: var(--white);
+  border-radius: 50px;
+  background-color: var(--majorelle-blue);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  width: 125px;
+  height: 59px;
+  border: none;
+  cursor: pointer;
+}
+
+.user-profile-contact-button:hover {
+  border: 2px solid var(--majorelle-blue);
+  background: transparent;
+  color: var(--majorelle-blue);
+}
