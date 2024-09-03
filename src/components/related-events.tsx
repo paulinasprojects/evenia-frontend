@@ -1,9 +1,10 @@
-import EventCard from "./event-card";
+import { useNavigate } from "react-router-dom";
 import eventImage from '/event-image.png';
 import eventImageTwo from '/event-image-two.png'
 import eventImageThree from '/event-image-three.png'
 import eventImageFour from '/event-image-four.png'
-import { useNavigate } from "react-router-dom";
+
+import EventCard from "./event-card";
 
 const RelatedEvents = () => {
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ const RelatedEvents = () => {
           author="Jalu Detya"
         />
       </div>
-      <div className="related-events-button-container">
+        <div className="related-events-button-container">
           <button className="see-more-button">See More</button>
         </div>
     </div>

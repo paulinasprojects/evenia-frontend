@@ -1,5 +1,6 @@
-import "@/styles/events.scss";
 import EventTabs from "../event-tabs";
+
+import "@/styles/events.scss";
 
 const Events = () => {
   return (
