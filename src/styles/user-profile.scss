@@ -9,6 +9,11 @@
   gap: 24px;
   color: var(--white);
 
+  @include md {
+    padding-top: 105px;
+    padding-bottom: 214px;
+  }
+
   @include sm {
     padding-left: 20px;
   }

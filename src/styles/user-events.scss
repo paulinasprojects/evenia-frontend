@@ -66,8 +66,12 @@
   border: 2px solid var(--majorelle-blue);
 }
 
-.user-no-events-container {
+.user-no-events-container { 
   background-color: var(--header);
+
+  @include md {
+    // padding-bottom: 214px;
+  }
 }
 
 .user-no-events-title-container {

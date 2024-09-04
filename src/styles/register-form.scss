@@ -1,0 +1,129 @@
+@import "./responsive.scss";
+
+.register-form-container {
+  width: 562px;
+  height: 620px;
+  margin-top: 84px;
+  margin-bottom: 84px;
+  margin-left: 437px;
+  background-color: var(--header);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+
+  @include md {
+    margin-top: 150px;
+    margin-left: 205px;
+  }
+
+  @include sm {
+    margin-left: 0;
+    width: 430px;
+  }
+}
+
+.register-form-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 61px;
+  margin-left: 50px;
+
+}
+
+.register-form-create-title {
+  font-size: 24px;
+  color: var(--white);
+  font-weight: var(--fw-semi-bold);
+}
+
+.register-form-create-description {
+  font-size: 14px;
+  font-weight: var(--fw-regular);
+  color: var(--white);
+}
+
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.input-field {
+  width: 462px;
+  height: 62px;
+  color: var(--light-grey);
+  background-color: #241f4d;
+  border-radius: 25px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 14px;
+
+  @include sm {
+    width: 350px;
+  }
+}
+
+::placeholder {
+  color: var(--light-grey);
+}
+
+
+.error-message {
+  color: rgb(183, 31, 31);
+  font-size: 12px;
+}
+
+
+.register-form-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.register-form-create-button {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  width: 462px;
+  height: 59px;
+  border: none;
+  cursor: pointer;
+
+  @include sm {
+    width: 350px;
+  }
+}
+
+.register-form-create-button:hover {
+  border: 2px solid var(--majorelle-blue);
+  background: transparent;
+}
+
+.register-form-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 462px;
+  height: 59px;
+  color: var(--majorelle-blue);
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  border: 2px solid var(--majorelle-blue);
+  background: transparent;
+  cursor: pointer;
+
+  @include sm {
+    width: 350px;
+  }
+}
+
+.register-form-login-button:hover {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+}

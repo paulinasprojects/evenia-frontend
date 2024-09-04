@@ -156,6 +156,7 @@
 .header-button-container {
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 20px;
   margin-right: 111px;
   margin-left: 55px;
@@ -171,6 +172,9 @@
 }
 
 .create-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   color: var(--majorelle-blue);
   font-size: var(--label-size-lg);
@@ -194,6 +198,9 @@
 }
 
 .signin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--majorelle-blue);
   color: var(--white);
   font-size: var(--label-size-lg);

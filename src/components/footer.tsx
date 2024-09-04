@@ -4,7 +4,7 @@ import logo from '/evenia-logo.svg';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer">
       <Link to="/">
         <img src={logo} alt="" className="footer-logo" />
       </Link>
@@ -14,7 +14,7 @@ const Footer = () => {
         <Link to="/" className="footer-link">Sign Up</Link>
         <Link to="/" className="footer-link">Explore Events</Link>
       </div>
-    </footer>
+    </div>
   )
 }
 

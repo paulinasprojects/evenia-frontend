@@ -5,7 +5,7 @@ import userimg from '/user-image.png'
 import "@/styles/header.scss";
 import logo from '/evenia-logo.svg';
 
-const user = true;
+const user = false;
 
 const Header = () => {
 
@@ -48,8 +48,8 @@ const Header = () => {
         ) :  (
           <>
           <div className="header-button-container">
-            <button className="create-button">Create Event</button>
-            <button className="signin-button">Sign in</button>
+            <Link to="/register" className="create-button">Register</Link>
+            <Link to="/sign-in" className="signin-button">Sign in</Link>
           </div> 
           </>
         )}
