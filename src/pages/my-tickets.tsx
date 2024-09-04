@@ -17,37 +17,43 @@ const MyTickets = () => {
       <h1 className="my-tickers-container-title">My Tickets</h1>
       <div className="my-ticket-events-container">
           <EventCard
-            onClick={() => navigate("/detail/1")} 
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")} 
             image={eventImage} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
-            onClick={() => navigate("/detail/1")} 
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")} 
             image={eventImageTwo} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
-            onClick={() => navigate("/detail/1")} 
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")} 
             image={eventImageThree} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
-            onClick={() => navigate("/detail/1")} 
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")} 
             image={eventImageFour} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
-            onClick={() => navigate("/detail/1")}  
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")}  
             image={eventImageFive} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
-            onClick={() => navigate("/detail/1")}  
+            type="Paid"
+            onClick={() => navigate("/detail/tickets/:ticketId")}  
             image={eventImageSix} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 

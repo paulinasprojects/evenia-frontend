@@ -64,6 +64,29 @@
   padding-right: 20px;
 }
 
+.type-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5px;
+
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.event-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 32px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: var(--fw-semi-bold);
+  background-color: #232524;
+  color: var(--dark-lemon-lime);
+}
+
 .event-date {
   font-size: var(--paragraph-size-lg);
   color: var(--dark-grey);
