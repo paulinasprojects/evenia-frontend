@@ -1,11 +1,11 @@
 import { BiChevronDown, BiSearch } from "react-icons/bi";
-import {Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { Link } from "react-router-dom";
 import userimg from '/user-image.png'
-import "@/styles/header.scss";
 import logo from '/evenia-logo.svg';
+import "@/styles/header.scss";
 
-const user = false;
+const user = true;
 
 const Header = () => {
 
@@ -34,7 +34,7 @@ const Header = () => {
                   <Link to="/" className="menu-item">Manage My Events</Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link to="/" className="menu-item">Tickets (1)</Link>
+                  <Link to="/my-tickets" className="menu-item">Tickets (1)</Link>
                 </MenuItem>
                 <MenuItem>
                   <Link to="/" className="menu-item">Account Settings</Link>

@@ -24,7 +24,7 @@ const AllEvents = () => {
   return (
       <> 
         <div className="all-events">
-          <EventCard 
+          <EventCard
             onClick={() => navigate("/detail/1")} 
             image={eventImage} 
             date="Mon, Oct 25, 8 : 30 AM" 

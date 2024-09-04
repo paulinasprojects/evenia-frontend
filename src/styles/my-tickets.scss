@@ -1,0 +1,52 @@
+@import "./responsive.scss";
+
+.my-tickers-container-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--white);
+  padding-top: 54px;
+  padding-left: 80px;
+  padding-bottom: 69px;
+}
+
+.my-ticket-events-container {
+  background-color: var(--header);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-left: 80px;
+  padding-top: 54px;
+  padding-bottom: 50px;
+  padding-right: 60px;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @include sm {
+      grid-template-columns: repeat(1, 1fr);
+      place-items: center;
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+    
+    }
+}
+
+.my-tickets-button-container {
+  text-align: center;
+  background-color: var(--header);
+  padding-bottom: 54px;
+}
+
+.my-tickets-button-container button {
+  width: 135px;
+  height: 59px;
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+  border-radius: 50px;
+  font-size: var(--label-size-lg);
+  font-weight: var(--fw-semi-bold);
+  cursor: pointer;
+  border: none;
+}

@@ -5,6 +5,7 @@ import EventDetailsPage from "./pages/event-details-page"
 import UserProfile from "./pages/user-profile"
 import Register from "./pages/register"
 import SignIn from "./pages/sign-in"
+import MyTickets from "./pages/my-tickets"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Route path="/" element={<Layout><HomePage/></Layout>}/>
     <Route path="/user-profile/:userId" element={<Layout><UserProfile/></Layout>}/>
     <Route path="/detail/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
+    <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>
   )
