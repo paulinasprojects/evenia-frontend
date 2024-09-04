@@ -1,13 +1,13 @@
 import { z } from 'zod';
+import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod";
 import InputField from '../input-field';
 import "@/styles/register-form.scss";
-import { Link } from 'react-router-dom';
 
 const schema = z.object({
   fullName: z.string().min(3, { message: "Full name is required" }),
-  email: z.string().email({ message: "Invalid email address" }),
+  email: z.string().min(1, { message: "Email is required" }).email({ message: "Invalid email address" }),
   password: z.string().min(8, { message: "Password must be at least 8 characters long." })
 });
 
