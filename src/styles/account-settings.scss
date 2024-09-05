@@ -1,0 +1,17 @@
+@import "./responsive.scss";
+
+.account-settings-title-container {
+  margin-top: 54px;
+  margin-left: 80px;
+  margin-bottom: 69px;
+}
+
+.account-settings-title {
+  font-size: 36px;
+  color: var(--white);
+  font-weight: var(--fw-bold);
+}
+
+.account-settings-container {
+  background-color: var(--header);
+}

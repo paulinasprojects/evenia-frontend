@@ -150,7 +150,22 @@
   color: var(--white);
 }
 
+.menu-item-button {
+  padding: 12px;
+  width: 400px;
+  height: 51px;
+  font-size: 18px;
+  color: var(--white);
+  border: none;
+  background-color: var(--header);
+  text-align: start;
+  cursor: pointer;
+}
+
 .menu-item:hover {
+  background: #000C29;
+}
+.menu-item-button:hover {
   background: #000C29;
 }
 
