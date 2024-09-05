@@ -8,7 +8,7 @@ import eventImageSix from '/event-image-six.png'
 import EventCard from "@/components/event-card";
 import { useNavigate } from "react-router-dom";
 
-const MyTickets = () => {
+const MyTicketsPage = () => {
   
   const navigate = useNavigate();
 
@@ -18,42 +18,42 @@ const MyTickets = () => {
       <div className="my-ticket-events-container">
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")} 
+            onClick={() => navigate("/my-tickets/1")} 
             image={eventImage} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")} 
+            onClick={() => navigate("/my-tickets/1")} 
             image={eventImageTwo} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")} 
+            onClick={() => navigate("/my-tickets/1")} 
             image={eventImageThree} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")} 
+            onClick={() => navigate("/my-tickets/1")} 
             image={eventImageFour} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")}  
+            onClick={() => navigate("/my-tickets/1")}  
             image={eventImageFive} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
             author="Jalu Detya"/>
           <EventCard
             type="Paid"
-            onClick={() => navigate("/detail/tickets/:ticketId")}  
+            onClick={() => navigate("/my-tickets/1")}  
             image={eventImageSix} 
             date="Mon, Oct 25, 8 : 30 AM" 
             title="Critical Thinking Skills For All Profesional" 
@@ -66,4 +66,4 @@ const MyTickets = () => {
   )
 }
 
-export default MyTickets
+export default MyTicketsPage

@@ -1,0 +1,220 @@
+@import "./responsive.scss";
+
+.my-tickets-back-button-container {
+  padding-top: 54px;
+  padding-left: 80px;
+}
+
+.back-button {
+  width: 177px;
+  height: 59px;
+  border: 2px solid var(--majorelle-blue);
+  background-color: transparent;
+  color: var(--majorelle-blue);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  outline: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+}
+
+.my-ticket-container {
+  background-color: var(--card);
+  width: 545px;
+  height: 832px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 54px;
+  margin-left: 447px;
+
+  @include md {
+    margin-left: 222px;
+  }
+
+  @include sm {
+    margin-left: 0;
+    width: 430px;
+  }
+}
+
+.my-ticket-image {
+  
+  @include md {
+    width: 545px;
+  }
+
+  @include sm {
+    width: 430px;
+  }
+}
+
+.my-ticket-test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 125px;
+  margin-left: 30px;
+  margin-top: 34px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+}
+
+.my-ticket-going-to {
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  color: var(--white);
+}
+
+.my-ticket-paid {
+  text-align: center;
+  width: 92px;
+  height: 32px;
+  border-radius: 25px;
+  background-color: #342f56;
+  color: #AAAAAA;
+  padding-top: 3px;
+}
+
+.my-ticket-title-container {
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+
+.my-ticket-title {
+font-size: 28px;
+font-weight: var(--fw-bold);
+color: var(--white);
+}
+
+.my-ticket-author-container {
+  margin-left: 30px;
+}
+
+.my-ticket-author {
+  font-size: 16px;
+  color: var(--white);
+  font-size: var(--fw-regular);
+}
+
+.my-ticket-date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  gap: 40px;
+  color: var(--white);
+}
+
+.my-ticket-subtotal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.my-ticket-subtotal {
+  font-size: 16px;
+  font-weight: var(--fw-bold);
+}
+
+.my-ticket-email {
+  font-size: 16px;
+  color: #AAAAAA;
+  font-weight: var(--fw-regular);
+}
+
+.my-ticket-date-time-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 25px;
+}
+
+.my-ticket-date {
+  font-size: 16px;
+  font-weight: var(--fw-bold);
+}
+
+.my-ticket-time {
+  font-size: 16px;
+  color: #AAAAAA;
+  font-weight: var(--fw-regular);
+}
+
+.my-ticket-note-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.my-ticket-note {
+  font-size: 16px;
+  font-weight: var(--fw-bold);
+  color: var(--white);
+}
+
+.my-ticket-pin {
+  font-size: 16px;
+  color: #AAAAAA;
+  font-weight: var(--fw-regular);
+}
+
+.my-ticket-total-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+
+.my-ticket-total {
+  font-size: 18px;
+  font-weight: var(--fw-regular);
+  color: var(--white);
+}
+
+.my-ticket-price {
+  font-size: 18px;
+  color: var(--white);
+  font-weight: var(--fw-bold);
+}
+
+.my-ticket-pay-now {
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  @include sm {
+    margin-top: 35px;
+  }
+}
+
+.my-ticket-pay-now-button {
+  text-align: center;
+  width: 485px;
+  height: 59px;
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  border: none;
+  cursor: pointer;
+
+  @include sm {
+    width: 350px;
+  }
+}
+
+.my-ticket-pay-now-button:hover {
+  border: 2px solid var(--majorelle-blue);
+  background: transparent;
+}

@@ -137,7 +137,8 @@
   height: 204px;
 
   @include sm {
-    width: 250px;
+    width: 210px;
+    overflow: hidden;
   }
 }
 
