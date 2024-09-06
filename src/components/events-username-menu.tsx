@@ -1,3 +1,4 @@
+
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { BiChevronDown } from "react-icons/bi";
 import { Link } from "react-router-dom";
@@ -5,11 +6,11 @@ import userimg from '/user-image.png'
 
 import "@/styles/header.scss";
 
-const UsernameMenu = () => {
+const EventsUserna = () => {
 
 
   return (
-      <Menu as="div" className="user-button-container">
+      <Menu as="div" className="events-user-button-container">
               <div className="user-button-div">
                 <MenuButton className="menu-button">
                   <img src={userimg} alt="" className="user-image"/>
@@ -17,7 +18,7 @@ const UsernameMenu = () => {
                 <BiChevronDown className="chevron-down"/>
                 </MenuButton>
               </div>
-              <MenuItems className="menu-items">
+              <MenuItems className="event-menu-items">
                 <MenuItem>
                   <Link to="/manage-my-events" className="menu-item">Manage My Events</Link>
                 </MenuItem>
@@ -36,4 +37,4 @@ const UsernameMenu = () => {
   )
 }
 
-export default UsernameMenu
+export default EventsUserna

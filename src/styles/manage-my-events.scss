@@ -1,0 +1,43 @@
+@import "./responsive.scss";
+
+.manage-event-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+  margin-bottom: 54px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+  @include sm {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+.manage-event-title {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: 25px;
+  }
+}
+
+.manage-event-create-event-button {
+  border-radius: 25px;
+  width: 170px;
+  height: 59px;
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  border: none;
+  cursor: pointer;
+}
+
+.manage-event-create-event-button:hover {
+  background-color: transparent;
+  border: 2px solid var(--majorelle-blue);
+}
