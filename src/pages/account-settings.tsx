@@ -1,9 +1,9 @@
-import UserProfile from "@/components/user-profile";
+import ProfileSetting from "@/components/profile-settings";
 import "@/styles/account-settings.scss";
 
 const AccountSettings = () => {
   return (
-    <UserProfile/>
+    <ProfileSetting/>
   )
 }
 

@@ -8,7 +8,7 @@ import EventCard from "./event-card";
 import "@/styles/user-events.scss";
 
 const UserEvents = () => {
-  const events = false;
+  const events = true;
   const navigate = useNavigate();
 
   return (

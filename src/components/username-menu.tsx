@@ -25,7 +25,7 @@ const UsernameMenu = () => {
                   <Link to="/my-tickets" className="menu-item">Tickets (1)</Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link to="/user-profile" className="menu-item">Account Settings</Link>
+                  <Link to="/account-settings" className="menu-item">Account Settings</Link>
                 </MenuItem>
                 <MenuItem>
                   <button className="menu-item-button">Log out</button>

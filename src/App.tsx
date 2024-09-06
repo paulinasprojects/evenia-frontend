@@ -7,6 +7,7 @@ import Register from "./pages/register"
 import SignIn from "./pages/sign-in"
 import MyTickets from "./pages/my-tickets"
 import MyTicketsDetailsPage from "./pages/my-tickets-details-page"
+import AccountSettings from "./pages/account-settings"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Route path="/sign-in" element={<Layout><SignIn/></Layout>}/>
     <Route path="/" element={<Layout><HomePage/></Layout>}/>
     <Route path="/user-profile/:userId" element={<Layout><UserProfile/></Layout>}/>
+    <Route path="/account-settings" element={<Layout><AccountSettings/></Layout>}/>
     <Route path="/detail/events/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
