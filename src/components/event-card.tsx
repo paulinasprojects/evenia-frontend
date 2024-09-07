@@ -6,7 +6,7 @@ interface EventCardProps {
   title?: string;
   author?: string;
   image?: string;
-  type?: "Paid" | "Unpaid";
+  type?: string;
   onClick?: () => void;
 }
 
