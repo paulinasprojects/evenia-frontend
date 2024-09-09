@@ -1,0 +1,174 @@
+@import "./responsive.scss";
+
+.event-table-container {
+  color: var(--white);
+}
+
+
+.event-table {
+  border-collapse: collapse;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  @include md {
+    margin-left: 0;
+  }
+
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+.event-table thead {
+  background-color: var(--background);
+}
+
+
+.event-table th {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold); 
+}
+
+
+.event-th-event {
+  width: 416px;
+  text-align: start;
+  margin-left: 10px;
+
+  @include sm {
+    width: 150px;
+  }
+}
+
+.event-th-sold {
+
+  @include sm {
+    margin-left: 100px;
+  }
+}
+.event-th-published {
+  @include sm {
+    display: none;
+  }
+}
+
+
+
+.event-table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 130px;
+  padding: 20px;
+
+  @include sm {
+    gap: 15px;
+  }
+}
+
+.manage-event-td {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-event-td-image {
+  @include sm {
+    width: 100px;
+  }
+}
+
+.manage-event-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.manage-event-table-date {
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: var(--dark-grey);
+  white-space: nowrap;
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.manage-event-table-title {
+  font-size: 20px;
+  margin-bottom: 14px;
+
+  @include sm {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+}
+
+.manage-event-table-author {
+  font-size: 14px;
+  color: var(--dark-grey);
+}
+
+.manage-event-table-sold {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.manage-event-table-price {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold); 
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.manage-event-table-published {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold); 
+
+  @include sm {
+    display: none;
+  }
+}
+
+.manage-vent-table-terms {
+  font-size: 14px;
+  color: var(--majorelle-blue);
+  font-weight: var(--fw-medium);
+}
+.manage-vent-table-terms:hover {
+  text-decoration: underline;
+}
+
+.manage-event-table-dots {
+  width: 167px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include md {
+    display: none;
+  }
+
+  @include sm {
+    display: none;
+  }
+}
+
+.manage-event-dots {
+ width: 24px;
+ height: 24px;
+
+ @include sm {
+  display: none;
+}
+}

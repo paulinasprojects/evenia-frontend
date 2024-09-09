@@ -10,6 +10,7 @@ import eventImageNine from "/event-image-nine.png";
 import eventImageTen from "/event-image-ten.png";
 import eventImageEleven from "/event-image-eleven.png";
 import eventImageTwelve from "/event-image-twelve.png";
+import manageEventsImage from "/manage-events-image.png";
 
 export const TicketEvents = [
   {
@@ -146,5 +147,81 @@ export const AllEventsData = [
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
     author: "Jalu Detya",
+  },
+];
+
+export const ManageMyEventsData = [
+  {
+    id: 1,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "5/20",
+    published: "Published",
+  },
+  {
+    id: 2,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$50",
+    sold: "0/20",
+    published: "Rejected",
+    terms: "See term of condition",
+  },
+  {
+    id: 3,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "0/20",
+    published: "Published",
+  },
+  {
+    id: 4,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "0/20",
+    published: "Rejected",
+    terms: "See term of condition",
+  },
+  {
+    id: 5,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "0/20",
+    published: "Published",
+  },
+  {
+    id: 6,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "0/20",
+    published: "Rejected",
+    terms: "See term of condition",
+  },
+  {
+    id: 7,
+    image: manageEventsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+    price: "$30",
+    sold: "0/20",
+    published: "Published",
   },
 ];

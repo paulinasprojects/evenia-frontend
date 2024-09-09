@@ -1,5 +1,6 @@
 @import "./responsive.scss";
 
+
 .manage-event-title-container {
   display: flex;
   justify-content: space-between;
@@ -40,4 +41,43 @@
 .manage-event-create-event-button:hover {
   background-color: transparent;
   border: 2px solid var(--majorelle-blue);
+}
+
+.manage-event-input-container {
+  background-color: var(--header);
+}
+
+.manage-event-input-second-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.manage-events-search-events {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 983px;
+  height: 62px;
+  border-radius: 25px;
+  background-color: #241f4d;
+  border: none;
+  color: var(--light-grey);
+}
+
+.manage-events-organizer {
+  width: 253px;
+  height: 62px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #241f4d;
+  color: var(--light-grey);
+  border: none;
+}
+
+.event-table-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--header);
 }
