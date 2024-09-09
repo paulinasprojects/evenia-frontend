@@ -141,7 +141,7 @@ export const AllEventsData = [
     author: "Jalu Detya",
   },
   {
-    id: 1,
+    id: 12,
     image: eventImageTwelve,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",

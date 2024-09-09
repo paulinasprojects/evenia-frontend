@@ -7,15 +7,13 @@ import userimg from '/user-image.png'
 import "@/styles/header.scss";
 
 const EventsUserna = () => {
-
-
   return (
       <Menu as="div" className="events-user-button-container">
               <div className="user-button-div">
-                <MenuButton className="menu-button">
-                  <img src={userimg} alt="" className="user-image"/>
-                  <span className="user-button-name">John Doe</span>
-                <BiChevronDown className="chevron-down"/>
+                <MenuButton className="event-menu-button">
+                  <img src={userimg} alt="" className="event-user-image"/>
+                  <span className="event-user-button-name">John Doe</span>
+                <BiChevronDown className="event-chevron-down"/>
                 </MenuButton>
               </div>
               <MenuItems className="event-menu-items">

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
+import { useLocation } from "react-router-dom";
 import logo from '/evenia-logo.svg';
-import { useLocation} from "react-router-dom";
-import "@/styles/header.scss";
 import classNames from "@/lib/utils";
 import EventsUsernameMenu from "./events-username-menu";
+import "@/styles/header.scss";
 
 const user = true;
 
@@ -37,7 +37,15 @@ const EventsHeader = () => {
         </Link>
         <div className="events-header-container">
           {navigation.map((navitem) => (
-            <Link key={navitem.name} to={navitem.href} className={classNames(navitem.href === pathname ? "path-event-link": "event-link", "event-link")}>{navitem.name}</Link>
+            <Link 
+              key={navitem.name} 
+              to={navitem.href} 
+              className={classNames(navitem.href === pathname ? "path-event-link"
+                : 
+                "event-link", "event-link")}
+              >
+                  {navitem.name}
+            </Link>
           ))}
         </div>
         {user ? (

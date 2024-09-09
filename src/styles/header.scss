@@ -45,7 +45,7 @@
   }
 
   @include sm {
-    gap: 10px;
+    gap: 14px;
     margin-left: 250px;
   }
 }
@@ -56,7 +56,7 @@
   font-weight: var(--fw-medium);
 
   @include sm {
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 
@@ -66,7 +66,7 @@
   font-weight: var(--fw-bold);
 
   @include sm {
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 
@@ -160,19 +160,61 @@
   display: flex;
   align-items: center;
   gap: 20px;
+
+  @include sm {
+    gap: 12px;
+  }
+}
+
+.event-menu-button {
+  position: relative;
+  background: transparent !important;
+  outline: none !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @include sm {
+    gap: 8px;
+  }
+}
+
+.user-image {
+  width: 49px;
+  height: 49px;
+}
+
+
+.event-user-image {
+  width: 59px;
+  height: 59px;
+
+
+  @include sm {
+    width: 39px;
+    height: 39px;
+  }
 }
 
 .user-button-name {
   color: var(--white);
-  font-size: var(--label-size-lg);
+  font-size: var(--label-size-medium);
   font-weight: var(--fw-regular);
   white-space: nowrap;
   
 }
 
-.user-image {
-  width: 59px;
-  height: 59px;
+
+.event-user-button-name {
+  color: var(--white);
+  font-size: var(--label-size-medium);
+  font-weight: var(--fw-regular);
+  white-space: nowrap;
+
+  @include sm {
+    font-size: var(--label-size-sm);
+  }
 }
 
 
@@ -180,6 +222,12 @@
   fill: var(--dark-grey);
   width: 30px;
   height: 30px;
+}
+
+.event-chevron-down {
+  fill: var(--dark-grey);
+  width: 20px;
+  height: 20px;
 }
 
 .menu-items {
@@ -195,7 +243,7 @@
   height: 204px;
 
   @include sm {
-    width: 210px;
+    width: 190px;
     overflow: hidden;
   }
 }
@@ -220,7 +268,8 @@
   height: 204px;
 
   @include sm {
-    width: 234px;
+    top: 40px;
+    width: 170px;
     overflow: hidden;
   }
 }
