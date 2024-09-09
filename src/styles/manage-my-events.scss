@@ -81,3 +81,33 @@
   align-items: center;
   background-color: var(--header);
 }
+
+.manage-event-pagination-container {
+  background-color: #161239;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-container {
+  margin-bottom: 54px;
+  display: flex;
+  gap: 10px;
+}
+
+.pagination-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  color: var(--majorelle-blue);
+  background-color: transparent;
+  border: 2px solid var(--majorelle-blue);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+}

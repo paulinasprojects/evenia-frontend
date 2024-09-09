@@ -1,4 +1,5 @@
 import EventTable from "@/components/event-table";
+import Pagination from "@/components/pagination";
 import "@/styles/manage-my-events.scss";
 
 const ManageMyEventsPage = () => {
@@ -16,7 +17,10 @@ const ManageMyEventsPage = () => {
       </div>
       <div className="event-table-container">
         <EventTable/>
-      </div>  
+      </div> 
+      <div className="manage-event-pagination-container ">
+          <Pagination/>
+        </div> 
     </div>
   )
 }
