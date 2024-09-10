@@ -27,12 +27,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   background-color: var(--majorelle-blue);
 }
 
 .tab-container {
   color: var(--white);
   font-size: 20px;
+  cursor: pointer;
   font-weight: var(--fw-regular);
 
   @include md {

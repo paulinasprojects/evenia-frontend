@@ -153,6 +153,7 @@
 }
 
 .manage-event-table-dots {
+  position: relative;
   width: 167px;
   display: flex;
   align-items: center;
@@ -174,4 +175,34 @@
  @include sm {
   display: none;
 }
+}
+
+.event-dots-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  position: absolute;
+  top: 30px;
+  right: -40px;
+  z-index: 1000;
+  width: 190px;
+  height: 102px;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: #161239;
+} 
+
+.event-dots-link {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  font-size: 18px;
+  padding-left: 12px;
+  font-weight: var(--fw-regular);
+}
+
+.event-dots-link:hover {
+  background-color: var(--background);
 }

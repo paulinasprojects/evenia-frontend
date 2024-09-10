@@ -1,10 +1,17 @@
-import "@/styles/event-table.scss";
-import { BsThreeDots } from "react-icons/bs";
-
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { ManageMyEventsData } from "@/data/events";
+import IconComponent from "./icon";
 
+import "@/styles/event-table.scss";
 
 const EventTable = () => {
+  const [open, setOpen] = useState<string | null>(null);
+
+  const handleOpen = (id: string) => {
+     setOpen((prev) => (prev === id ? null : id)); 
+  };
+
   return (
    <div className="event-table-container">
      <table className="event-table">
@@ -34,7 +41,14 @@ const EventTable = () => {
               {event.published} <br />
             </td>
             <td className="manage-event-table-dots">
-              <BsThreeDots className="manage-event-dots" />
+              <IconComponent icon={event.icon} onClick={() => handleOpen(event.id)}  />
+                {open === event.id && (
+                 <div className="event-dots-menu">
+                 <Link to="/view-event" className="event-dots-link">View Event</Link>
+                 <Link to="/edit-event" className="event-dots-link">Edit Event</Link>
+                 <Link to="#" className="event-dots-link">Copy URL</Link>
+               </div> 
+                )}
             </td>
         </tr>
         ))}

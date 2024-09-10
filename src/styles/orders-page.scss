@@ -1,6 +1,10 @@
 @import "./responsive.scss";
 
 
+.order-table-container {
+  color: var(--white);
+}
+
 .order-event-table-container {
   display: flex;
   align-items: center;
@@ -204,6 +208,7 @@
 }
 
 .order-event-table-dots {
+  position: relative;
   @include sm {
     display: none;
   }
@@ -243,4 +248,34 @@
 .user-no-orders-description {
   font-size: var(--paragraph-size-sm);
   font-weight: var(--fw-regular);
+}
+
+.dots-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  z-index: 1000;
+  width: 176px;
+  height: 102px;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: #161239;
+}
+
+.dots-link {
+  display: flex;
+  align-items: center;
+  width: 176px;
+  height: 51px;
+  font-size: 18px;
+  padding-left: 12px;
+  font-weight: var(--fw-regular);
+}
+
+.dots-link:hover {
+  background-color: var(--background);
 }

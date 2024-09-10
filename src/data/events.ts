@@ -11,6 +11,7 @@ import eventImageTen from "/event-image-ten.png";
 import eventImageEleven from "/event-image-eleven.png";
 import eventImageTwelve from "/event-image-twelve.png";
 import manageEventsImage from "/manage-events-image.png";
+import { BsThreeDots } from "react-icons/bs";
 
 export const TicketEvents = [
   {
@@ -152,7 +153,7 @@ export const AllEventsData = [
 
 export const ManageMyEventsData = [
   {
-    id: 1,
+    id: "1",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -160,9 +161,10 @@ export const ManageMyEventsData = [
     price: "$30",
     sold: "5/20",
     published: "Published",
+    icon: BsThreeDots,
   },
   {
-    id: 2,
+    id: "2",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -171,9 +173,10 @@ export const ManageMyEventsData = [
     sold: "0/20",
     published: "Rejected",
     terms: "See term of condition",
+    icon: BsThreeDots,
   },
   {
-    id: 3,
+    id: "3",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -181,9 +184,10 @@ export const ManageMyEventsData = [
     price: "$30",
     sold: "0/20",
     published: "Published",
+    icon: BsThreeDots,
   },
   {
-    id: 4,
+    id: "4",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -192,9 +196,10 @@ export const ManageMyEventsData = [
     sold: "0/20",
     published: "Rejected",
     terms: "See term of condition",
+    icon: BsThreeDots,
   },
   {
-    id: 5,
+    id: "5",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -202,9 +207,10 @@ export const ManageMyEventsData = [
     price: "$30",
     sold: "0/20",
     published: "Published",
+    icon: BsThreeDots,
   },
   {
-    id: 6,
+    id: "6",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -213,9 +219,10 @@ export const ManageMyEventsData = [
     sold: "0/20",
     published: "Rejected",
     terms: "See term of condition",
+    icon: BsThreeDots,
   },
   {
-    id: 7,
+    id: "7",
     image: manageEventsImage,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
@@ -223,6 +230,7 @@ export const ManageMyEventsData = [
     price: "$30",
     sold: "0/20",
     published: "Published",
+    icon: BsThreeDots,
   },
 ];
 
@@ -233,6 +241,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$750",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932422",
@@ -240,6 +249,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$350",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932421",
@@ -247,6 +257,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$450",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932420",
@@ -254,6 +265,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$250",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932419",
@@ -261,6 +273,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$150",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932418",
@@ -268,6 +281,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$550",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932417",
@@ -275,6 +289,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$300",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932416",
@@ -282,6 +297,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$420",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932415",
@@ -289,6 +305,7 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$305",
+    icon: BsThreeDots,
   },
   {
     id: "#214i932414",
@@ -296,5 +313,6 @@ export const OrderEventsData = [
     buyer: "Halotokopx",
     date: "Sep 4, 7:57 PM",
     total: "$200",
+    icon: BsThreeDots,
   },
 ];

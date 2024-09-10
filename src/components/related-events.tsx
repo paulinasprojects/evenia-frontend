@@ -17,28 +17,28 @@ const RelatedEvents = () => {
       </div>
       <div className="related-event-card-container">
         <EventCard 
-          onClick={() => navigate("/detail/1")} 
+          onClick={() => navigate("/detail/events/1")} 
           image={eventImage} 
           date="Mon, Oct 25, 8 : 30 AM" 
           title="Critical Thinking Skills For All Profesional" 
           author="Jalu Detya"
         />
           <EventCard
-          onClick={() => navigate("/detail/1")} 
+          onClick={() => navigate("/detail/events/1")} 
           image={eventImageTwo} 
           date="Mon, Oct 25, 8 : 30 AM" 
           title="Critical Thinking Skills For All Profesional" 
           author="Jalu Detya"
         />
         <EventCard
-          onClick={() => navigate("/detail/1")} 
+          onClick={() => navigate("/detail/events/1")} 
           image={eventImageThree} 
           date="Mon, Oct 25, 8 : 30 AM" 
           title="Critical Thinking Skills For All Profesional" 
           author="Jalu Detya"
         />
         <EventCard
-          onClick={() => navigate("/detail/1")} 
+          onClick={() => navigate("/detail/events/1")} 
           image={eventImageFour} 
           date="Mon, Oct 25, 8 : 30 AM" 
           title="Critical Thinking Skills For All Profesional" 
