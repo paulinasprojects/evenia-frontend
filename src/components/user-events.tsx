@@ -4,9 +4,10 @@ import { AllEventsData } from "@/data/events";
 import EventCard from "./event-card";
 
 import "@/styles/user-events.scss";
+import UserEventsEmpty from "./user-events-empty";
 
 const UserEvents = () => {
-  const events = true;
+  const events = false;
   const navigate = useNavigate();
 
   return (
@@ -33,12 +34,7 @@ const UserEvents = () => {
           </div>
         </div> 
       ) : (
-        <div className="user-no-events-container">
-          <div className="user-no-events-title-container">
-            <h1 className="user-no-events-title">No Events Yet</h1>
-            <span className="user-no-events-description">The organizer don't have any events yet. Check back later!</span>
-          </div>
-        </div>
+        <UserEventsEmpty/>
       )}
     </>
   )

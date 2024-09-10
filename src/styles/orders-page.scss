@@ -159,7 +159,6 @@
   color: var(--majorelle-blue);
 
   @include sm {
-    // font-size: 14px;
     display: none;
   }
 }
@@ -180,7 +179,6 @@
   white-space: nowrap;
 
   @include sm {
-    // font-size: 14px;
     display: none;
   }
 }
@@ -215,4 +213,34 @@
   @include sm {
     display: none;
   }
+}
+
+.user-no-orders-container {
+  background-color: var(--header);
+}
+
+.user-no-orders-title-container {
+  padding-top: 199px;
+  padding-bottom: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--white);
+
+  @include sm {
+    padding-top: 50px;
+    margin-left: 15px;
+  }
+}
+
+.user-no-orders-title {
+  font-size: var(--heading-size-medium);
+  font-weight: var(--fw-bold);
+}
+
+.user-no-orders-description {
+  font-size: var(--paragraph-size-sm);
+  font-weight: var(--fw-regular);
 }
