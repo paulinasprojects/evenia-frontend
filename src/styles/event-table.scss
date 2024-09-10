@@ -38,16 +38,17 @@
   margin-left: 10px;
 
   @include sm {
-    width: 150px;
+    width: 100px;
+    margin-left: 0;
   }
 }
 
 .event-th-sold {
-
   @include sm {
     margin-left: 100px;
   }
 }
+
 .event-th-published {
   @include sm {
     display: none;
@@ -64,7 +65,8 @@
   padding: 20px;
 
   @include sm {
-    gap: 15px;
+    gap: 10px;
+ 
   }
 }
 
@@ -73,11 +75,12 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
+
 }
 
 .manage-event-td-image {
   @include sm {
-    width: 100px;
+    display: none;
   }
 }
 

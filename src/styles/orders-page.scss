@@ -1,0 +1,218 @@
+@import "./responsive.scss";
+
+
+.order-event-table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--header);
+}
+
+.orders-title-container {
+  margin-top: 54px;
+  margin-left: 80px;
+  margin-bottom: 54px;
+
+  @include sm {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.orders-title {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: 25px;
+  }
+}
+
+.orders-event-input-container {
+  background-color: var(--header);
+}
+
+.orders-event-second-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+  
+  @include sm {
+    justify-content: flex-start;
+    margin-left: 5px;
+  }
+}
+
+.orders-input {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 983px;
+  height: 62px;
+  border-radius: 25px;
+  background-color: #241f4d;
+  border: none;
+  color: var(--light-grey);
+}
+
+.orders-date-range-input {
+  width: 253px;
+  height: 62px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #241f4d;
+  color: var(--light-grey);
+  border: none;
+}
+
+.order-event-table {
+  border-collapse: collapse;
+  margin-left: 25px;
+
+  @include md {
+    margin-left: 0;
+  }
+
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.order-event-table thead {
+  background-color: var(--background);
+}
+
+
+
+.order-event-table th {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold); 
+
+  @include sm {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+.order-event-table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 130px;
+  padding: 20px;
+
+  @include md {
+    gap: 80px;
+  }
+
+  @include sm {
+    gap: 35px;
+  }
+}
+
+.order-event-th-orderId {
+  @include sm {
+    display: none;
+  }
+}
+
+.order-event-th-event {
+  text-align: center;
+  width: 150px;
+
+  @include sm {
+    width: 80px;
+  }
+}
+
+.order-event-th-buyer {
+  margin-left: 35px;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.order-event-th-date {
+  width: 150px;
+
+  @include sm {
+    width: 100px;
+  }
+}
+
+.order-event-th-dots {
+  width: 100px;
+
+  @include sm {
+   display: none;
+  }
+}
+
+.order-orderId {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  color: var(--majorelle-blue);
+
+  @include sm {
+    // font-size: 14px;
+    display: none;
+  }
+}
+
+.order-event-td-event {
+  font-size: 16px;
+  font-weight: var(--fw-semi-bold);
+  white-space: nowrap;
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.order-event-td-buyer {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  white-space: nowrap;
+
+  @include sm {
+    // font-size: 14px;
+    display: none;
+  }
+}
+
+.order-event-td-date {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  white-space: nowrap;
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+
+.order-event-td {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+
+  @include sm {
+    font-size: 14px;
+  }
+}
+
+.order-event-table-dots {
+  @include sm {
+    display: none;
+  }
+}
+
+.order-event-dots {
+  @include sm {
+    display: none;
+  }
+}

@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-left: 15px;
   }
 }
 
@@ -52,6 +53,11 @@
   align-items: center;
   justify-content: center;
   gap: 44px;
+  
+  @include sm {
+    justify-content: center;
+    margin-left: 5px;
+  }
 }
 
 .manage-events-search-events {
@@ -64,6 +70,10 @@
   background-color: #241f4d;
   border: none;
   color: var(--light-grey);
+
+  @include sm {
+    width: 200px;
+  }
 }
 
 .manage-events-organizer {
@@ -74,12 +84,20 @@
   background-color: #241f4d;
   color: var(--light-grey);
   border: none;
+
+  @include sm {
+    width: 100px;
+  }
 }
 
 .event-table-container {
   display: flex;
   align-items: center;
   background-color: var(--header);
+
+  @include sm {
+    justify-content: center;
+  }
 }
 
 .manage-event-pagination-container {
@@ -87,9 +105,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @include sm {
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
 }
 
 .pagination-container {
+  margin-top: 40px;
   margin-bottom: 54px;
   display: flex;
   gap: 10px;

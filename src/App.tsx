@@ -10,18 +10,20 @@ import MyTicketsDetailsPage from "./pages/my-tickets-details-page"
 import AccountSettings from "./pages/account-settings"
 import ManageMyEventsPage from "./pages/manage-my-events-page"
 import EventsLayout from "./components/layouts/events-layout"
+import OrdersPage from "./pages/orders-page"
 
 const App = () => {
   return (
    <Routes>
+    <Route path="/" element={<Layout><HomePage/></Layout>}/>
     <Route path="/register" element={<Layout><Register/></Layout>}/>
     <Route path="/sign-in" element={<Layout><SignIn/></Layout>}/>
-    <Route path="/" element={<Layout><HomePage/></Layout>}/>
     <Route path="/user-profile/:userId" element={<Layout><UserProfile/></Layout>}/>
     <Route path="/account-settings" element={<Layout><AccountSettings/></Layout>}/>
     <Route path="/detail/events/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
+    <Route path="/orders" element={<EventsLayout><OrdersPage/></EventsLayout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>

@@ -18,7 +18,7 @@ const ManageMyEventsPage = () => {
       <div className="event-table-container">
         <EventTable/>
       </div> 
-      <div className="manage-event-pagination-container ">
+      <div className="manage-event-pagination-container">
           <Pagination/>
         </div> 
     </div>

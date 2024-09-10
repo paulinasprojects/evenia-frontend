@@ -225,3 +225,76 @@ export const ManageMyEventsData = [
     published: "Published",
   },
 ];
+
+export const OrderEventsData = [
+  {
+    id: "#214i932423",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$750",
+  },
+  {
+    id: "#214i932422",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$350",
+  },
+  {
+    id: "#214i932421",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$450",
+  },
+  {
+    id: "#214i932420",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$250",
+  },
+  {
+    id: "#214i932419",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$150",
+  },
+  {
+    id: "#214i932418",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$550",
+  },
+  {
+    id: "#214i932417",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$300",
+  },
+  {
+    id: "#214i932416",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$420",
+  },
+  {
+    id: "#214i932415",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$305",
+  },
+  {
+    id: "#214i932414",
+    title: "Critical thinking",
+    buyer: "Halotokopx",
+    date: "Sep 4, 7:57 PM",
+    total: "$200",
+  },
+];
