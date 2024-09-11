@@ -11,6 +11,16 @@ import eventImageTen from "/event-image-ten.png";
 import eventImageEleven from "/event-image-eleven.png";
 import eventImageTwelve from "/event-image-twelve.png";
 import manageEventsImage from "/manage-events-image.png";
+
+import redditLogo from "/reddit-logo.png";
+import amazonLogo from "/amazon-logo.png";
+import ebayLogo from "/ebay-logo.png";
+import airbnbLogo from "/airbnb-logo.png";
+import shopifyLogo from "/shopify-logo.png";
+import disneyLogo from "/disney-logo.png";
+import yahooLogo from "/yahoo-logo.png";
+import usaTodayLogo from "/usa-today-logo.png";
+
 import { BsThreeDots } from "react-icons/bs";
 
 export const TicketEvents = [
@@ -314,5 +324,32 @@ export const OrderEventsData = [
     date: "Sep 4, 7:57 PM",
     total: "$200",
     icon: BsThreeDots,
+  },
+];
+
+export const OurPartnersData = [
+  {
+    image: redditLogo,
+  },
+  {
+    image: amazonLogo,
+  },
+  {
+    image: ebayLogo,
+  },
+  {
+    image: airbnbLogo,
+  },
+  {
+    image: shopifyLogo,
+  },
+  {
+    image: disneyLogo,
+  },
+  {
+    image: yahooLogo,
+  },
+  {
+    image: usaTodayLogo,
   },
 ];

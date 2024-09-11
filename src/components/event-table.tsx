@@ -1,15 +1,29 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useClickOutside } from '@/lib/utils';
 import { ManageMyEventsData } from "@/data/events";
 import IconComponent from "./icon";
 
 import "@/styles/event-table.scss";
 
 const EventTable = () => {
+  const menuRef = useRef(null);
   const [open, setOpen] = useState<string | null>(null);
 
   const handleOpen = (id: string) => {
      setOpen((prev) => (prev === id ? null : id)); 
+  };
+
+  const handleClose = () => {
+    setOpen(null);
+  };
+
+  useClickOutside(menuRef, handleClose);
+
+  const copyURL = () => {
+    const currentUrl = window.location.href;
+    navigator.clipboard.writeText(currentUrl);
+    setOpen(null);
   };
 
   return (
@@ -41,12 +55,15 @@ const EventTable = () => {
               {event.published} <br />
             </td>
             <td className="manage-event-table-dots">
-              <IconComponent icon={event.icon} onClick={() => handleOpen(event.id)}  />
+              <IconComponent 
+                icon={event.icon} 
+                onClick={() => handleOpen(event.id)} 
+              />
                 {open === event.id && (
-                 <div className="event-dots-menu">
-                 <Link to="/view-event" className="event-dots-link">View Event</Link>
-                 <Link to="/edit-event" className="event-dots-link">Edit Event</Link>
-                 <Link to="#" className="event-dots-link">Copy URL</Link>
+                 <div className="event-dots-menu" ref={menuRef}>
+                    <Link to="/view-event" className="event-dots-link">View Event</Link>
+                    <Link to="/edit-event" className="event-dots-link">Edit Event</Link>
+                    <button className="event-dots-link" onClick={copyURL}>Copy URL</button>
                </div> 
                 )}
             </td>
@@ -55,7 +72,7 @@ const EventTable = () => {
       </tbody>
     </table>
    </div>
-  )
-}
+  );
+};
 
-export default EventTable
+export default EventTable;

@@ -1,14 +1,23 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useClickOutside } from "@/lib/utils";
 import { OrderEventsData } from "@/data/events";
 import IconComponent from "./icon";
 
 const OrdersEventTable = () => {
+  const menuRef = useRef(null);
   const [open, setOpen] = useState<string | null>(null);
 
   const handleOpen = (id: string) => {
     setOpen((prev) => (prev === id ? null : id));
   };
+
+  const handleClose = () => {
+    setOpen(null);
+  };
+
+  useClickOutside(menuRef, handleClose);
+
 
   return (
     <div className="order-table-container">
@@ -33,9 +42,13 @@ const OrdersEventTable = () => {
               <td className="order-event-td">{event.total}</td>
               
               <td className="order-event-table-dots">
-                <IconComponent icon={event.icon} onClick={() => handleOpen(event.id)}/>
+                <IconComponent 
+                  icon={event.icon} 
+                  onClick={() => handleOpen(event.id)} 
+                  className="order-event-dots"
+                />
                   {open === event.id && (
-                    <div className="dots-menu">
+                    <div className="dots-menu" ref={menuRef}>
                       <Link to="/view-order" className="dots-link">View Order</Link>
                       <Link to="/edit-buyer-info" className="dots-link">Edit Buyer Info</Link>
                     </div>
@@ -46,7 +59,7 @@ const OrdersEventTable = () => {
         </tbody>
       </table>
     </div>
-  )
-}
+  );
+};
 
-export default OrdersEventTable
+export default OrdersEventTable;
