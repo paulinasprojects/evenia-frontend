@@ -1,0 +1,120 @@
+@import "./responsive.scss";
+
+
+.withdrawal-title-container {
+  margin-top: 54px;
+  margin-left: 80px;
+  
+
+  @include sm {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+
+.withdrawal-title {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: 25px;
+  }
+}
+
+.withdrawal-page-container {
+  padding-top: 40px;
+  margin-top: 54px;
+  background-color: var(--header);
+  padding-bottom: 40px;
+}
+
+.balance-container {
+  width: 569px;
+  height: 184px;
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  margin-left: 80px;
+  border-radius: 35px;
+  padding-top: 40px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+
+  @include sm {
+    margin-left: 0;
+    width: 420px;
+  }
+}
+
+
+.my-balance {
+  font-size: 18px;
+  font-weight: var(--fw-regular);
+}
+
+.withdrawal-balance {
+  font-size: 36px;
+  font-weight: var(--fw-semi-bold);
+}
+
+.withdrawal-th-id {
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-date {
+  width: 190px;
+
+  @include sm {
+    width: 100px;
+  }
+}
+
+.withdrawal-method {
+  width: 210px;
+
+  @include sm {
+    width: 100px;
+  }
+}
+
+.withdrawal-status {
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-dots {
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-id {
+  color: var(--majorelle-blue);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-td {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+}
+
+.withdrawal-td-status {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+
+  @include sm {
+    display: none;
+  }
+}

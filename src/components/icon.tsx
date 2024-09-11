@@ -2,7 +2,7 @@ import { IconType } from "react-icons"
 
 interface IconProps {
   icon: IconType;
-  onClick: () => void;
+  onClick?: () => void;
   className?: string;
 }
 

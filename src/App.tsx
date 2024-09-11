@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 import HomePage from "./pages/home-page"
 import Layout from "./components/layouts/layout"
+import EventsLayout from "./components/layouts/events-layout"
 import EventDetailsPage from "./pages/event-details-page"
 import UserProfile from "./pages/user-profile"
 import Register from "./pages/register"
@@ -9,9 +10,9 @@ import MyTickets from "./pages/my-tickets"
 import MyTicketsDetailsPage from "./pages/my-tickets-details-page"
 import AccountSettings from "./pages/account-settings"
 import ManageMyEventsPage from "./pages/manage-my-events-page"
-import EventsLayout from "./components/layouts/events-layout"
 import OrdersPage from "./pages/orders-page"
 import OrderDetailsPage from "./pages/order-details.page"
+import WithdrawalPage from "./pages/withdrawal-page"
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
     <Route path="/orders" element={<EventsLayout><OrdersPage/></EventsLayout>}/>
     <Route path="/detail/orders/:orderId" element={<EventsLayout><OrderDetailsPage/></EventsLayout>}/>
+    <Route path="/withdrawal" element={<EventsLayout><WithdrawalPage/></EventsLayout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>

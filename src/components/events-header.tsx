@@ -17,8 +17,8 @@ const navigation = [
     name: "Orders"
   },
   {
-    href: "/withdraw",
-    name: "Withdraw"
+    href: "/withdrawal",
+    name: "Withdrawal"
   },
   {
     href: "/bank",
