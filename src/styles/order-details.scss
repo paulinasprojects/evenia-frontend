@@ -1,0 +1,148 @@
+@import "./responsive.scss";
+
+.order-details-container {
+  height: 100vh;
+  margin-top: 54px;
+  background-color: var(--header);
+}
+
+.order-details-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+
+  @include sm {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.order-number {
+  margin-top: 40px;
+  margin-bottom: 47px;
+  color: var(--white);
+  font-size: 36px;
+  font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}
+
+.print-invoice {
+  color: var(--white);
+  background-color: var(--majorelle-blue);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  border-radius: 35px;
+  width: 165px;
+  height: 59px;
+  border: none;
+  cursor: pointer;
+}
+
+.print-invoice:hover {
+  border: 2px solid var(--majorelle-blue);
+  background: transparent;
+}
+
+.order-description-container {
+  margin-left: 80px;
+  padding-bottom: 40px;
+
+  @include sm {
+    margin-left: 20px;
+  }
+}
+
+.order-description {
+  color: var(--white);
+  font-size: 20px;
+
+  @include sm {
+    font-size: 15px;
+  }
+}
+
+.order-details-event-table {
+  border-collapse: collapse;
+  margin-left: 25px;
+
+  @include md {
+    margin-left: 0;
+  }
+
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.order-details-event-table thead {
+  background-color: var(--background);
+}
+
+.order-details-event-table th {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold); 
+
+  @include sm {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+.order-attendee {
+  width: 500px;
+  text-align: start;
+
+  @include md {
+    width: 350px;
+  }
+
+  @include sm {
+    width: 150px;
+  }
+}
+
+.order-time {
+  width: 450px;
+  text-align: start;
+
+  @include md {
+    width: 250px;
+  }
+
+  @include sm {
+    width: 50px;
+  }
+}
+
+.order-paid {
+  width: 50px;
+}
+
+.order-details-event-table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+  padding: 20px;
+
+  @include md {
+    gap: 80px;
+  }
+
+  @include sm {
+    gap: 35px;
+  }
+}
+
+.order-details-event-table td {
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+}

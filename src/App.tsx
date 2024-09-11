@@ -11,6 +11,7 @@ import AccountSettings from "./pages/account-settings"
 import ManageMyEventsPage from "./pages/manage-my-events-page"
 import EventsLayout from "./components/layouts/events-layout"
 import OrdersPage from "./pages/orders-page"
+import OrderDetailsPage from "./pages/order-details.page"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
     <Route path="/orders" element={<EventsLayout><OrdersPage/></EventsLayout>}/>
+    <Route path="/detail/orders/:orderId" element={<EventsLayout><OrderDetailsPage/></EventsLayout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>
