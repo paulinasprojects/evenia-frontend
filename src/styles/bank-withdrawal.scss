@@ -1,0 +1,63 @@
+@import "./responsive.scss";
+
+.bank-withdrawal-container {
+  width: 351px;
+  height: 184px;
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  border-radius: 35px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bank-withdrawal-second-container {
+  width: 703px;
+  height: 573px;
+  border-radius: 35px;
+  background-color: var(--card);
+
+  @include sm {
+    width: 340px;
+  }
+}
+
+.bank-withdrawal-information-container {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.withdrawal-to {
+  font-size: 20px;
+  font-weight: var(--fw-bold);
+}
+
+.withdrawal-bank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.withdrawwal-bank-no {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.withdrawal-shop-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.bank-withdrawal-details-container {
+ margin: 50px;
+}

@@ -13,6 +13,8 @@ import ManageMyEventsPage from "./pages/manage-my-events-page"
 import OrdersPage from "./pages/orders-page"
 import OrderDetailsPage from "./pages/order-details.page"
 import WithdrawalPage from "./pages/withdrawal-page"
+import NewWithdrawalPage from "./pages/new-withdrawal-page"
+import BankWithdrawalPage from "./pages/bank-withdrawal-page"
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
     <Route path="/orders" element={<EventsLayout><OrdersPage/></EventsLayout>}/>
     <Route path="/detail/orders/:orderId" element={<EventsLayout><OrderDetailsPage/></EventsLayout>}/>
     <Route path="/withdrawal" element={<EventsLayout><WithdrawalPage/></EventsLayout>}/>
+    <Route path="/new-withdrawal" element={<EventsLayout><NewWithdrawalPage/></EventsLayout>}/>
+    <Route path="/new-withdrawal/new" element={<EventsLayout><BankWithdrawalPage/></EventsLayout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>
