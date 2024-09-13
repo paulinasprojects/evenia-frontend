@@ -23,7 +23,6 @@ const NewWithdrawalPage = () => {
            <label className="amount-label">Amount</label>
             <input type="number" className="amount-input" placeholder="$" min={1} max={100000}  />
             <label className="amount-label">Choose Bank</label>
-            {/* <input type="text" width={603} height={62} className="bank-input" placeholder="Choose bank" /> */}
             <select className="bank-input">
               <option value="BCA">BCA - VIRTUAL ACCOUNT (7217288121)</option>
               <option value="BNI">BCA - VIRTUAL ACCOUNT (8567288121)</option>
