@@ -9,10 +9,8 @@ const WithdrawalPage = () => {
         </div>
         <div className="withdrawal-page-container">
           <div className="balance-container">
-           {/* <div className="balance-title-container"> */}
             <span className="my-balance">My Balance</span>
             <span className="withdrawal-balance">$ 10.000</span>
-           {/* </div> */}
           </div>
         <div className="orders-event-input-container">
           <div className="orders-event-second-input-container">
