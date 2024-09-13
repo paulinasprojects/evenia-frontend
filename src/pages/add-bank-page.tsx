@@ -12,7 +12,7 @@ const AddBank = () => {
         <select className="add-bank-input" defaultValue="Select Bank">
           <option value="Select Bank"  disabled hidden>Select Bank</option>
           <option value="BCA">BCA</option>
-          <option value="BNI">BCA</option>
+          <option value="BNI">BNI</option>
         </select>
         <input type="number" className="add-bank-input" placeholder="Account Number"  />
       </div>

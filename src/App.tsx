@@ -15,6 +15,9 @@ import OrderDetailsPage from "./pages/order-details.page"
 import WithdrawalPage from "./pages/withdrawal-page"
 import NewWithdrawalPage from "./pages/new-withdrawal-page"
 import BankWithdrawalPage from "./pages/bank-withdrawal-page"
+import BankPage from "./pages/bank-page"
+import AddBank from "./pages/add-bank-page"
+import EditBankPage from "./pages/edit-bank"
 
 const App = () => {
   return (
@@ -33,6 +36,9 @@ const App = () => {
     <Route path="/new-withdrawal" element={<EventsLayout><NewWithdrawalPage/></EventsLayout>}/>
     <Route path="/new-withdrawal/new" element={<EventsLayout><BankWithdrawalPage/></EventsLayout>}/>
     <Route path="/my-tickets/:ticketId" element={<Layout><MyTicketsDetailsPage/></Layout>}/>
+    <Route path="/bank" element={<EventsLayout><BankPage/></EventsLayout>}/>
+    <Route path="/bank/add-bank" element={<EventsLayout><AddBank/></EventsLayout>}/>
+    <Route path="/bank/edit-bank" element={<EventsLayout><EditBankPage/></EventsLayout>}/>
     <Route path="*" element={<Navigate to="/"/>}/>
    </Routes>
   )

@@ -10,7 +10,7 @@
 
 .new-withdrawal-container {
   display: flex;
-  gap: 150px;
+  gap: 50px;
   padding-left: 80px;
 
   @include md {
@@ -21,6 +21,7 @@
 
   @include sm {
     padding-left: 0;
+    gap: 150px;
   }
 }
 
