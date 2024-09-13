@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom"
 
 const EditBankPage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="add-bank-container">
     <div className="add-bank-account-title-container">
@@ -16,7 +19,7 @@ const EditBankPage = () => {
       <input type="number" className="add-bank-input" placeholder="Account Number"  />
     </div>
     <div className="add-bank-button-container">
-      <button className="add-bank-back-button">Back</button>
+      <button className="add-bank-back-button" onClick={() => navigate("/bank")}>Back</button>
       <button className="add-bank-save-button">Save</button>
     </div>
   </div>

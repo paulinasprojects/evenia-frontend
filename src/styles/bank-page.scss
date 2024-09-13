@@ -1,1 +1,71 @@
 @import "./responsive.scss";
+
+.bank-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+  margin-bottom: 54px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+  @include sm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+}
+
+.bank-title {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: 25px;
+  }
+}
+
+.add-bank-button {
+  border-radius: 25px;
+  width: 170px;
+  height: 59px;
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: var(--fw-semi-bold);
+  border: none;
+  cursor: pointer;
+}
+
+.add-bank-button:hover {
+  background-color: transparent;
+  border: 2px solid var(--majorelle-blue);
+  color: var(--majorelle-blue);
+}
+
+.bank-page-table-container {
+  color: var(--white);
+  background-color: var(--header);
+  height: 100vh;
+}
+
+.bank-page-table-container {
+  padding-top: 40px;
+}
+
+.bank-page-pagination-container {
+  background-color: #161239;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include sm {
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+}

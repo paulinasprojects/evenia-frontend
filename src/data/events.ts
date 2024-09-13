@@ -436,3 +436,76 @@ export const WithdrawalsData = [
     icon: BsThreeDots,
   },
 ];
+
+export const BankDetailData = [
+  {
+    id: "1",
+    accountName: "Savannah Nguyen",
+    bankName: "BCA Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "2",
+    accountName: "Eleanor Pena",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "3",
+    accountName: "Jenny Wilson",
+    bankName: "BCA Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "4",
+    accountName: "Dianne Russell",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "5",
+    accountName: "Kathryn Murphy",
+    bankName: "BCA Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "6",
+    accountName: "Theresa Webb",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "7",
+    accountName: "Guy Hawkins",
+    bankName: "BCA Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "8",
+    accountName: "Ralph Edwards",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "9",
+    accountName: "Devon Lane",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+  {
+    id: "10",
+    accountName: "Albert Flores",
+    bankName: "BNI Virtual Account",
+    accountNumber: "2388238",
+    icon: BsThreeDots,
+  },
+];

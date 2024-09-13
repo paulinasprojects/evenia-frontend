@@ -1,0 +1,101 @@
+@import "./responsive.scss";
+
+.bank-table-container {
+  color: var(--white);
+}
+
+.bank-table {
+  border-collapse: collapse;
+  margin-left: 80px;
+
+
+  @include md {
+    margin-left: 0;
+  }
+
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.bank-table thead {
+  background-color: var(--background);
+}
+
+.bank-table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 130px;
+  padding: 15px;
+
+  @include sm {
+    gap: 15px;
+    padding: 10px;
+  }
+}
+
+.account-holder-name {
+  width: 394px;
+  text-align: start;
+
+  @include sm {
+    font-size: 15px;
+    width: 190px;
+  }
+}
+
+.bank-table-bank-name {
+  width: 180px;
+  text-align: start;
+
+  @include sm {
+    font-size: 15px;
+    width: 90px;
+  }
+}
+
+.bank-account-number {
+  width: 150px;
+  text-align: start;
+
+  @include sm {
+    font-size: 12px;
+    width: 0;
+  }
+}
+
+.bank-table-dots {
+  width: 105px;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.account-name-td {
+  width: 394px;
+
+  @include sm {
+    width: 150px;
+    font-size: 15px;
+  }
+}
+
+.bank-name-td {
+  width: 228px;
+
+  @include sm {
+    width: 110px;
+    font-size: 15px;
+  }
+}
+
+.account-number-td {
+  margin-right: 50px;
+
+  @include sm {
+    font-size: 15px;
+  }
+}
