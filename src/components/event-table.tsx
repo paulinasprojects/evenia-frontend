@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { toast } from "sonner";
 import { Link } from "react-router-dom";
 import { useClickOutside } from '@/lib/utils';
 import { ManageMyEventsData } from "@/data/events";
@@ -23,6 +24,7 @@ const EventTable = () => {
   const copyURL = () => {
     const currentUrl = window.location.href;
     navigator.clipboard.writeText(currentUrl);
+    toast.success("URL Copied to clipboard!")
     setOpen(null);
   };
 

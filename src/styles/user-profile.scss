@@ -20,7 +20,7 @@
 }
 
 .user-profile-name {
-  font-size: 24px;
+  font-size: var(--heading-size-sm);
   font-weight: var(--fw-semi-bold);
 }
 
@@ -43,7 +43,7 @@
   width: 108px;
   height: 59px;
   color: var(--majorelle-blue);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
 }
@@ -57,7 +57,7 @@
   color: var(--white);
   border-radius: 50px;
   background-color: var(--majorelle-blue);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   width: 125px;
   height: 59px;

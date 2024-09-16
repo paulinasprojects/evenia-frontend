@@ -19,11 +19,11 @@
 
 .manage-event-title {
   color: var(--white);
-  font-size: 36px;
+  font-size: var(--heading-size-xl);
   font-weight: var(--fw-bold);
 
   @include sm {
-    font-size: 25px;
+    font-size: var(--heading-size-sm);
   }
 }
 
@@ -33,7 +33,7 @@
   height: 59px;
   background-color: var(--majorelle-blue);
   color: var(--white);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   border: none;
   cursor: pointer;
@@ -102,7 +102,7 @@
 }
 
 .manage-event-pagination-container {
-  background-color: #161239;
+  background-color: var(--header);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,7 +129,7 @@
   color: var(--majorelle-blue);
   background-color: transparent;
   border: 2px solid var(--majorelle-blue);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
 }

@@ -12,7 +12,7 @@
   background-color: transparent;
   color: var(--majorelle-blue);
   border-radius: 50px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   outline: none;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .my-ticket-going-to {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   font-weight: var(--fw-regular);
   color: var(--white);
 }
@@ -76,7 +76,7 @@
   height: 32px;
   border-radius: 25px;
   background-color: #342f56;
-  color: #AAAAAA;
+  color: var(--light-grey);
   padding-top: 3px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .my-ticket-title {
-font-size: 28px;
+font-size: var(--heading-size-medium);
 font-weight: var(--fw-bold);
 color: var(--white);
 }
@@ -96,7 +96,7 @@ color: var(--white);
 }
 
 .my-ticket-author {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   color: var(--white);
   font-size: var(--fw-regular);
 }
@@ -118,13 +118,13 @@ color: var(--white);
 }
 
 .my-ticket-subtotal {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   font-weight: var(--fw-bold);
 }
 
 .my-ticket-email {
-  font-size: 16px;
-  color: #AAAAAA;
+  font-size: var(--label-size-medium);
+  color: var(--light-grey);
   font-weight: var(--fw-regular);
 }
 
@@ -136,13 +136,13 @@ color: var(--white);
 }
 
 .my-ticket-date {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   font-weight: var(--fw-bold);
 }
 
 .my-ticket-time {
-  font-size: 16px;
-  color: #AAAAAA;
+  font-size: var(--label-size-medium);
+  color: var(--light-grey);
   font-weight: var(--fw-regular);
 }
 
@@ -155,14 +155,14 @@ color: var(--white);
 }
 
 .my-ticket-note {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   font-weight: var(--fw-bold);
   color: var(--white);
 }
 
 .my-ticket-pin {
-  font-size: 16px;
-  color: #AAAAAA;
+  font-size: var(--label-size-medium);
+  color: var(--light-grey);
   font-weight: var(--fw-regular);
 }
 
@@ -176,13 +176,13 @@ color: var(--white);
 }
 
 .my-ticket-total {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-regular);
   color: var(--white);
 }
 
 .my-ticket-price {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   color: var(--white);
   font-weight: var(--fw-bold);
 }
@@ -204,7 +204,7 @@ color: var(--white);
   color: var(--white);
   background-color: var(--majorelle-blue);
   border-radius: 50px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   border: none;
   cursor: pointer;

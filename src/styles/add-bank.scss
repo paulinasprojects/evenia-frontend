@@ -24,13 +24,13 @@
 
 .add-bank-account-title {
   color: var(--white);
-  font-size: 32px;
+  font-size: var(--heading-size-lg);
   font-weight: var(--fw-medium);
 }
 
 .add-bank-account-description {
   color: var(--dark-grey);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-regular);
 }
 
@@ -60,7 +60,7 @@
   color: var(--dark-grey);
   border-radius: 35px;
   padding: 20px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   border: none;
 
   @include sm {
@@ -94,7 +94,7 @@
   color: var(--majorelle-blue);
   border: 2px solid var(--majorelle-blue);
   background: transparent;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
   
@@ -116,7 +116,7 @@
   border: none;
   background-color: var(--majorelle-blue);
   color: var(--white);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
 

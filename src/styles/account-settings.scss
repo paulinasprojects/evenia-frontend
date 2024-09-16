@@ -11,7 +11,7 @@
 }
 
 .account-settings-title {
-  font-size: 36px;
+  font-size: var(--heading-size-xl);
   color: var(--white);
   font-weight: var(--fw-bold);
 }
@@ -44,20 +44,26 @@
 }
 
 .profile-picture-title {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   margin-top: 35px;
   color: var(--white);
   font-weight: var(--fw-medium);
 }
 
 .file-format {
-  font-size: 14px;
+  font-size: var(--label-size-sm);
   color: var(--white);
   font-weight: var(--fw-regular);
 }
 
-input[type='file'] { font-size: 0; }
-::file-selector-button { font-size: initial; }
+input[type='file'] { 
+  font-size: 0; 
+}
+
+::file-selector-button { 
+  font-size: initial;
+ 
+}
 
 .change-profile-picture-button {
   display: flex;
@@ -68,7 +74,7 @@ input[type='file'] { font-size: 0; }
   border-radius: 25px;
   width: 212px;
   height: 40px;
-  font-size: 14px;
+  font-size: var(--label-size-sm);
   font-weight: var(--fw-semi-bold);
   cursor: pointer;
 }
@@ -97,13 +103,13 @@ input[type='file'] { font-size: 0; }
 }
 
 .username {
-  font-size: 18px;
+  font-size: var(--label-size-sm);
   color: var(--white);
   font-weight: var(--fw-medium);
 }
 
 .change-username {
-  font-size: 14px;
+  font-size: var(--label-size-sm);
   color: var(--white);
   font-weight: var(--fw-regular);
 }
@@ -120,7 +126,7 @@ input[type='file'] { font-size: 0; }
   border-radius: 25px;
   background-color: var(--majorelle-blue);
   color: var(--white);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   border: none;
   cursor: pointer;

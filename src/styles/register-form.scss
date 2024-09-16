@@ -32,13 +32,13 @@
 }
 
 .register-form-create-title {
-  font-size: 24px;
+  font-size: var(--heading-size-sm);
   color: var(--white);
   font-weight: var(--fw-semi-bold);
 }
 
 .register-form-create-description {
-  font-size: 14px;
+  font-size: var(--paragraph-size-sm);
   font-weight: var(--fw-regular);
   color: var(--white);
 }
@@ -73,7 +73,7 @@
 
 .error-message {
   color: rgb(183, 31, 31);
-  font-size: 12px;
+  font-size: var(--paragraph-size-xs);
 }
 
 
@@ -87,7 +87,7 @@
   background-color: var(--majorelle-blue);
   color: var(--white);
   border-radius: 25px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   width: 462px;
   height: 59px;
@@ -112,7 +112,7 @@
   height: 59px;
   color: var(--majorelle-blue);
   border-radius: 25px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
   border: 2px solid var(--majorelle-blue);
   background: transparent;

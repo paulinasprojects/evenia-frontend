@@ -15,11 +15,11 @@
 
 .withdrawal-title {
   color: var(--white);
-  font-size: 36px;
+  font-size: var(--heading-size-xl);
   font-weight: var(--fw-bold);
 
   @include sm {
-    font-size: 25px;
+    font-size: var(--heading-size-sm);
   }
 }
 
@@ -50,12 +50,12 @@
 
 
 .my-balance {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-regular);
 }
 
 .withdrawal-balance {
-  font-size: 36px;
+  font-size: var(--heading-size-xl);
   font-weight: var(--fw-semi-bold);
 }
 
@@ -95,7 +95,7 @@
 
 .withdrawal-id {
   color: var(--majorelle-blue);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
 
   @include sm {
@@ -105,13 +105,13 @@
 
 .withdrawal-td {
   color: var(--white);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
 }
 
 .withdrawal-td-status {
   color: var(--white);
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
 
   @include sm {

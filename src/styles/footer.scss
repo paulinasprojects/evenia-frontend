@@ -34,7 +34,7 @@
 
   @include sm {
     white-space: nowrap;
-    font-size: 12px;
+    font-size: var(--label-size-xs);
   }
 }
 

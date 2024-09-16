@@ -27,7 +27,7 @@
 
 
 .event-table th {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold); 
 }
 
@@ -90,52 +90,52 @@
 }
 
 .manage-event-table-date {
-  font-size: 20px;
+  font-size: var(--heading-size-xs);
   margin-bottom: 14px;
   color: var(--dark-grey);
   white-space: nowrap;
 
   @include sm {
-    font-size: 14px;
+    font-size: var(--label-size-sm);
   }
 }
 
 .manage-event-table-title {
-  font-size: 20px;
+  font-size: var(--heading-size-xs);
   margin-bottom: 14px;
 
   @include sm {
-    font-size: 14px;
+    font-size: var(--label-size-sm);
     margin-right: 20px;
   }
 
 }
 
 .manage-event-table-author {
-  font-size: 14px;
+  font-size: var(--label-size-sm);
   color: var(--dark-grey);
 }
 
 .manage-event-table-sold {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
 
   @include sm {
-    font-size: 14px;
+    font-size: var(--label-size-sm);
   }
 }
 
 .manage-event-table-price {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold); 
 
   @include sm {
-    font-size: 14px;
+    font-size: var(--label-size-sm);
   }
 }
 
 .manage-event-table-published {
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold); 
 
   @include sm {
@@ -144,7 +144,7 @@
 }
 
 .manage-vent-table-terms {
-  font-size: 14px;
+  font-size: var(--label-size-sm);
   color: var(--majorelle-blue);
   font-weight: var(--fw-medium);
 }
@@ -190,7 +190,7 @@
   height: 102px;
   white-space: nowrap;
   color: var(--white);
-  background-color: #161239;
+  background-color: var(--header);
 } 
 
 .event-dots-link {
@@ -198,11 +198,11 @@
   align-items: center;
   width: 200px;
   height: 80px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   padding-left: 12px;
   font-weight: var(--fw-regular);
   border: none;
-  background-color: #161239;
+  background-color: var(--header);
   color: var(--white);
 }
 

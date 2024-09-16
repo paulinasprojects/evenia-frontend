@@ -64,14 +64,12 @@
 .see-more-button:hover {
   background: transparent;
   border: 2px solid var(--majorelle-blue);
+  color: var(--majorelle-blue);
 }
 
 .user-no-events-container { 
   background-color: var(--header);
 
-  @include md {
-    // padding-bottom: 214px;
-  }
 }
 
 .user-no-events-title-container {

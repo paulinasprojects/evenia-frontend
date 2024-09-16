@@ -64,19 +64,19 @@
 }
 
 .features-create {
-  font-size: 24px;
+  font-size: var(--heading-size-sm);
   font-weight: var(--fw-semi-bold);
 
   @include md {
-    font-size: 20px;
+    font-size: var(--heading-size-xs);
   }
 }
 
 .features-donations {
-  font-size: 20px;
+  font-size: var(--heading-size-xs);
   font-weight: var(--fw-regular);
 
   @include md {
-    font-size: 18px;
+    font-size: var(--label-size-lg);
   }
 }

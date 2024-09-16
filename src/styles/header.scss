@@ -51,22 +51,22 @@
 }
 
 .event-link {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   color: var(--dark-grey);
   font-weight: var(--fw-medium);
 
   @include sm {
-    font-size: 12px;
+    font-size: var(--label-size-xs);
   }
 }
 
 .path-event-link {
-  font-size: 16px;
+  font-size: var(--label-size-medium);
   color: var(--white);
   font-weight: var(--fw-bold);
 
   @include sm {
-    font-size: 12px;
+    font-size: var(--label-size-xs);
   }
 }
 
@@ -252,7 +252,7 @@
   padding: 12px;
   width: 400px;
   height: 51px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   color: var(--white);
 }
 .event-menu-items {
@@ -279,7 +279,7 @@
   padding: 12px;
   width: 400px;
   height: 51px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   color: var(--white);
   border: none;
   background-color: var(--header);
@@ -329,7 +329,7 @@
   @include sm {
     width: 100px;
     height: 40px;
-    font-size: 12px;
+    font-size: var(--label-size-xs);
   }
 }
 
@@ -355,7 +355,7 @@
   @include sm {
     width: 80px;
     height: 40px;
-    font-size: 12px;
+    font-size: var(--label-size-xs);
   }
 }
 

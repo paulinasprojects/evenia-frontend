@@ -61,7 +61,7 @@
   text-align: start;
 
   @include sm {
-    font-size: 12px;
+    font-size: var(--paragraph-size-xs);
     width: 0;
   }
 }
@@ -105,11 +105,11 @@
   align-items: center;
   width: 150px;
   height: 45px;
-  font-size: 18px;
+  font-size: var(--label-size-lg);
   padding-left: 12px;
   font-weight: var(--fw-regular);
   border: none;
-  background-color: #161239;
+  background-color: var(--header);
   color: var(--white);
 }
 
