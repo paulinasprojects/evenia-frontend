@@ -99,3 +99,21 @@
     font-size: 15px;
   }
 }
+
+.bank-dots-link {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  padding-left: 12px;
+  font-weight: var(--fw-regular);
+  border: none;
+  background-color: #161239;
+  color: var(--white);
+}
+
+
+.bank-dots-link:hover {
+  background-color: var(--background);
+}

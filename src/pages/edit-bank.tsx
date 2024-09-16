@@ -19,7 +19,12 @@ const EditBankPage = () => {
       <input type="number" className="add-bank-input" placeholder="Account Number"  />
     </div>
     <div className="add-bank-button-container">
-      <button className="add-bank-back-button" onClick={() => navigate("/bank")}>Back</button>
+      <button 
+        className="add-bank-back-button" 
+        onClick={() => navigate("/bank")}
+      >
+          Back
+        </button>
       <button className="add-bank-save-button">Save</button>
     </div>
   </div>
