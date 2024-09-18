@@ -1,12 +1,15 @@
 import classNames from "@/lib/utils";
 import "@/styles/progress-bar.scss";
 
+
 const steps = [
   { name: '1', href: '#', status: 'complete' },
   { name: '2', href: '#', status: 'upcoming' },
   { name: '3', href: '#', status: 'upcoming' },
   { name: '4', href: '#', status: 'upcoming' },
 ]
+
+
 
 const ProgressBar = () => {
   return (

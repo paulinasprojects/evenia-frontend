@@ -3,6 +3,10 @@
 .create-event-form-container {
   background-color: var(--header);
   height: 100vh;
+
+  @include sm {
+    margin-bottom: 10px;
+  }
 }
 
 .create-event-title-container {
@@ -88,11 +92,9 @@
   }
 }
 
-.create-event-textarea-container {
-  margin-top: 24px;
-}
 
 .create-event-textarea-container {
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;

@@ -4,7 +4,7 @@ const CreateEventFormComponents = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="create-event-outer-container">
       <div className="create-event-form-input-container">
         <input type="text" placeholder="Event Title" className="create-event-form-input" />
         <input type="text" placeholder="Category" className="create-event-form-input" />

@@ -19,6 +19,7 @@ import BankPage from "./pages/bank-page"
 import AddBank from "./pages/add-bank-page"
 import EditBankPage from "./pages/edit-bank"
 import CreateEventPage from "./pages/create-event-page"
+import CreateEventNextPage from "./pages/create-event-next"
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
     <Route path="/user-profile/:userId" element={<Layout><UserProfile/></Layout>}/>
     <Route path="/account-settings" element={<Layout><AccountSettings/></Layout>}/>
     <Route path="/create-event" element={<EventsLayout><CreateEventPage/></EventsLayout>}/>
-    <Route path="/create-event/next" element={<EventsLayout><CreateEventPage/></EventsLayout>}/>
+    <Route path="/create-event/next" element={<EventsLayout><CreateEventNextPage/></EventsLayout>}/>
     <Route path="/detail/events/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
