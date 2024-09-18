@@ -1,0 +1,143 @@
+@import "./responsive.scss";
+
+.create-event-form-container {
+  background-color: var(--header);
+  height: 100vh;
+}
+
+.create-event-title-container {
+  padding-top: 80px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @include md {
+    align-items: center;
+    margin-left: 0;
+  }
+}
+
+.create-event-title {
+  font-size: var(--heading-size-lg);
+  color: var(--white);
+  font-weight: var(--fw-medium);
+}
+
+.create-event-description {
+  font-size: var(--label-size-lg);
+  color: var(--dark-grey);
+  font-weight: var(--fw-regular);
+}
+
+.create-event-container {
+  display: flex;
+  margin-left: 80px;
+  gap: 50px;
+  margin-top: 15px;
+  
+  @include md {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+.create-event-input-container {
+  width: 508px;
+  height: 282px;
+  outline: 2px dashed var(--white);
+  border-radius: 15px;
+  background-color: #241f4d;
+
+  @include sm {
+    width: 380px;
+  }
+}
+
+.input-field-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 104px;
+}
+
+.create-event-form-input-container {
+  display: flex;
+  gap: 24px;
+  
+  @include sm {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.create-event-form-input {
+  width: 349px;
+  height: 62px;
+  border-radius: 45px;
+  background-color: #241f4d;
+  color: var(--dark-grey);
+  font-size: var(--label-size-lg);
+  padding: 20px;
+  border: none;
+
+  @include sm {
+    width: 150px;
+  }
+}
+
+.create-event-textarea-container {
+  margin-top: 24px;
+}
+
+.create-event-textarea-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @include sm {
+    align-items: center;
+  }
+}
+
+.create-event-textarea-container textarea {
+  width: 722px;
+  height: 222px;
+  resize: none;
+  background-color: #241f4d;
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  font-size: var(--label-size-lg);
+  color: var(--dark-grey);
+
+  @include sm {
+    width: 360px;
+  }
+
+}
+
+
+.continue-button {
+  background-color: var(--majorelle-blue);
+  color: var(--white);
+  width: 722px;
+  height: 59px;
+  border: none;
+  font-size: var(--label-size-lg);
+  border-radius: 45px;
+  font-weight: var(--fw-semi-bold);
+  cursor: pointer;
+
+  @include sm {
+    width: 250px;
+  }
+}
+
+.continue-button:hover {
+  background-color: transparent;
+  color: var(--majorelle-blue);
+  border: 2px solid var(--majorelle-blue);
+}

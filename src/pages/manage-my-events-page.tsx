@@ -1,13 +1,21 @@
 import EventTable from "@/components/event-table";
 import Pagination from "@/components/pagination";
 import "@/styles/manage-my-events.scss";
+import { useNavigate } from "react-router-dom";
 
 const ManageMyEventsPage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="manage-event-container">
       <div className="manage-event-title-container">
         <span className="manage-event-title">Events</span>
-        <button className="manage-event-create-event-button">Create Event</button>
+        <button 
+          className="manage-event-create-event-button" 
+          onClick={() => navigate("/create-event")}
+        >
+          Create Event
+        </button>
       </div>
       <div className="manage-event-input-container">
         <div className="manage-event-input-second-container">

@@ -18,6 +18,7 @@ import BankWithdrawalPage from "./pages/bank-withdrawal-page"
 import BankPage from "./pages/bank-page"
 import AddBank from "./pages/add-bank-page"
 import EditBankPage from "./pages/edit-bank"
+import CreateEventPage from "./pages/create-event-page"
 
 const App = () => {
   return (
@@ -27,6 +28,8 @@ const App = () => {
     <Route path="/sign-in" element={<Layout><SignIn/></Layout>}/>
     <Route path="/user-profile/:userId" element={<Layout><UserProfile/></Layout>}/>
     <Route path="/account-settings" element={<Layout><AccountSettings/></Layout>}/>
+    <Route path="/create-event" element={<EventsLayout><CreateEventPage/></EventsLayout>}/>
+    <Route path="/create-event/next" element={<EventsLayout><CreateEventPage/></EventsLayout>}/>
     <Route path="/detail/events/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
