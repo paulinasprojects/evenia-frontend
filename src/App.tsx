@@ -21,6 +21,7 @@ import EditBankPage from "./pages/edit-bank"
 import CreateEventPage from "./pages/create-event-page"
 import CreateEventNextPage from "./pages/create-event-next"
 import CreateEventAddTicket from "./pages/create-event-add-ticket"
+import CreateEventAddLink from "./pages/create-event-add-link"
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
     <Route path="/create-event" element={<EventsLayout><CreateEventPage/></EventsLayout>}/>
     <Route path="/create-event/next" element={<EventsLayout><CreateEventNextPage/></EventsLayout>}/>
     <Route path="/create-event/add-ticket" element={<EventsLayout><CreateEventAddTicket/></EventsLayout>}/>
+    <Route path="/create-event/add-link" element={<EventsLayout><CreateEventAddLink/></EventsLayout>}/>
     <Route path="/detail/events/:eventId" element={<Layout><EventDetailsPage/></Layout>}/>
     <Route path="/my-tickets" element={<Layout><MyTickets/></Layout>}/>
     <Route path="/manage-my-events" element={<EventsLayout><ManageMyEventsPage/></EventsLayout>}/>
