@@ -23,7 +23,7 @@ const CreateEventDateTime = () => {
       </div>
       <div className="create-event-date-button-container">
         <button className="create-event-date-button-back" onClick={() => navigate("/create-event")}>Back</button>
-        <button className="create-event-date-continue">Continue</button>
+        <button className="create-event-date-continue" onClick={() => navigate("/create-event/add-ticket")}>Continue</button>
       </div>
     </div>
   )

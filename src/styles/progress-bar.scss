@@ -47,6 +47,7 @@ li::marker {
   height: 42px;
   width: 42px;
   background-color: var(--majorelle-blue);
+  pointer-events: none;
 }
 
 
@@ -76,6 +77,7 @@ li::marker {
   border: 1px solid var(--majorelle-blue);
   color: var(--majorelle-blue);
   background-color: transparent;
+  pointer-events: none;
 }
 
 .upcoming-span {
