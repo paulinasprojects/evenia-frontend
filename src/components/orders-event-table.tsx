@@ -50,7 +50,7 @@ const OrdersEventTable = () => {
                   {open === event.id && (
                     <div className="dots-menu" ref={menuRef}>
                       <Link to="/detail/orders/1" className="dots-link">View Order</Link>
-                      <Link to="/edit-buyer-info" className="dots-link">Edit Buyer Info</Link>
+                      <Link to="#" className="dots-link">Edit Buyer Info</Link>
                     </div>
                   )}
               </td>

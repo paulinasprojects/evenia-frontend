@@ -131,5 +131,10 @@ input[type='file'] {
   border: none;
   cursor: pointer;
   margin-bottom: 50px;
-  
+}
+
+.save-button:hover {
+  border: 2px solid var(--majorelle-blue);
+  background-color: transparent;
+  color: var(--majorelle-blue);
 }

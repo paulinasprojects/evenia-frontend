@@ -6,17 +6,19 @@
 }
 
 .add-bank-account-title-container {
-  padding-top: 80px;
+  padding-top: 150px;
   margin-left: 100px;
   display: flex;
   flex-direction: column;
 
   @include md {
+    padding-top: 250px;
     align-items: center;
     justify-content: center;
   }
 
   @include sm {
+    padding-top: 150px;
     margin-left: 40px;
   }
 }

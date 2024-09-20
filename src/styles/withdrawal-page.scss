@@ -59,6 +59,67 @@
   font-weight: var(--fw-semi-bold);
 }
 
+.withdrawal-table-container {
+  color: var(--white);
+}
+
+
+.withdrawal-table {
+  border-collapse: collapse;
+  margin-left: 25px;
+  
+  @include md {
+    margin-left: 0;
+  }
+
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.withdrawal-table tbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.withdrawal-table thead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+}
+
+.withdrawal-table th {
+  font-size: var(--label-size-lg);
+  font-weight: var(--fw-semi-bold); 
+
+  @include sm {
+    font-size: var(--label-size-sm);
+    white-space: nowrap;
+  }
+}
+
+.withdrawal-table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  padding: 20px;
+
+  @include md {
+    gap: 80px;
+  }
+
+  @include sm {
+    gap: 35px;
+  }
+}
+
+
 .withdrawal-th-id {
   @include sm {
     display: none;
@@ -66,7 +127,7 @@
 }
 
 .withdrawal-date {
-  width: 190px;
+  width: 150px;
 
   @include sm {
     width: 100px;
@@ -110,10 +171,24 @@
 }
 
 .withdrawal-td-status {
+  width: fit-content;
   color: var(--white);
   font-size: var(--label-size-lg);
   font-weight: var(--fw-semi-bold);
 
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-table-dots-container {
+  position: relative;
+  @include sm {
+    display: none;
+  }
+}
+
+.withdrawal-table-dots {
   @include sm {
     display: none;
   }

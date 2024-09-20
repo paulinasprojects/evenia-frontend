@@ -63,7 +63,7 @@ const EventTable = () => {
               />
                 {open === event.id && (
                  <div className="event-dots-menu" ref={menuRef}>
-                    <Link to="/view-event" className="event-dots-link">View Event</Link>
+                    <Link to="/detail/events/1" className="event-dots-link">View Event</Link>
                     <Link to="/edit-event" className="event-dots-link">Edit Event</Link>
                     <button className="event-dots-link" onClick={copyURL}>Copy URL</button>
                </div> 

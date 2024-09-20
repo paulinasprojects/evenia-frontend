@@ -392,7 +392,7 @@ export const WithdrawalsData = [
     date: "Sep 4, 7:57 PM",
     total: "$450",
     method: "BCA Virtual Account",
-    status: "Pending",
+    status: "Completed",
     icon: BsThreeDots,
   },
   {
