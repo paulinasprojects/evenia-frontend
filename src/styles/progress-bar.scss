@@ -13,6 +13,10 @@ li::marker {
   content: "";
 }
 
+li {
+  list-style: none;
+}
+
 .progress-list {
   padding-right: 42px;
 
