@@ -6,6 +6,7 @@ import EventContent from "./events-content";
 import "@/styles/events-tabs.scss";
 import DesignEvents from "./design-events";
 import ProgrammingEvents from "./programming-events";
+import DigitalMarketingEvents from "./digital-marketing-events";
 
 const EventTabs = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -19,7 +20,7 @@ const EventTabs = () => {
       case 3: 
       return <ProgrammingEvents/>;
       case 4: 
-      return <AllEvents/>;
+      return <DigitalMarketingEvents/>;
       case 5: 
       return <AllEvents/>;
       case 6: 
