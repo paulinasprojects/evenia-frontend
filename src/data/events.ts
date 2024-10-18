@@ -90,6 +90,19 @@ import investingImageTen from "/investing-image-ten.jpg";
 import investingImageEleven from "/investing-image-eleven.jpg";
 import investingImageTwelve from "/investing-image-twelve.jpg";
 
+import softSkillsImage from "/soft-skills-image.jpg";
+import softSkillsImageTwo from "/soft-skills-image-two.jpg";
+import softSkillsImageThree from "/soft-skills-image-three.jpg";
+import softSkillsImageFour from "/soft-skills-image-four.jpg";
+import softSkillsImageFive from "/soft-skills-image-five.jpg";
+import softSkillsImageSix from "/soft-skills-image-six.jpg";
+import softSkillsImageSeven from "/soft-skills-image-seven.jpg";
+import softSkillsImageEight from "/soft-skills-image-eight.jpg";
+import softSkillsImageNine from "/soft-skills-image-nine.jpg";
+import softSkillsImageTen from "/soft-skills-image-ten.jpg";
+import softSkillsImageEleven from "/soft-skills-image-eleven.jpg";
+import softSkillsImageTwelve from "/soft-skills-image-twelve.jpg";
+
 import redditLogo from "/reddit-logo.png";
 import amazonLogo from "/amazon-logo.png";
 import ebayLogo from "/ebay-logo.png";
@@ -755,6 +768,93 @@ export const InvestingEventsData = [
   {
     id: 12,
     image: investingImageTwelve,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+];
+
+export const SoftSkillsEventsData = [
+  {
+    id: 1,
+    image: softSkillsImage,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Designers",
+    author: "John Doe",
+  },
+  {
+    id: 2,
+    image: softSkillsImageTwo,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 3,
+    image: softSkillsImageThree,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 4,
+    image: softSkillsImageFour,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 5,
+    image: softSkillsImageFive,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 6,
+    image: softSkillsImageSix,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 7,
+    image: softSkillsImageTen,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 8,
+    image: softSkillsImageEight,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 9,
+    image: softSkillsImageNine,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 10,
+    image: softSkillsImageSeven,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 11,
+    image: softSkillsImageEleven,
+    date: "Mon, Oct 25, 8 : 30 AM",
+    title: "Critical Thinking Skills For All Profesional",
+    author: "Jalu Detya",
+  },
+  {
+    id: 12,
+    image: softSkillsImageTwelve,
     date: "Mon, Oct 25, 8 : 30 AM",
     title: "Critical Thinking Skills For All Profesional",
     author: "Jalu Detya",
