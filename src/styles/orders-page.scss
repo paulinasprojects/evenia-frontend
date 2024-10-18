@@ -59,6 +59,10 @@
   background-color: #241f4d;
   border: none;
   color: var(--light-grey);
+
+  @include ms {
+    width: 400px;
+  }
 }
 
 .orders-date-range-input {
@@ -122,6 +126,10 @@
   @include sm {
     display: none;
   }
+  
+  @include ms {
+    display: none;
+  }
 }
 
 .order-event-th-event {
@@ -147,6 +155,10 @@
   @include sm {
     width: 100px;
   }
+
+  @include ms {
+    width: 100px;
+  }
 }
 
 .order-event-th-dots {
@@ -154,6 +166,10 @@
 
   @include sm {
    display: none;
+  }
+
+  @include ms {
+    display: none;
   }
 }
 
@@ -163,6 +179,10 @@
   color: var(--majorelle-blue);
 
   @include sm {
+    display: none;
+  }
+
+  @include ms {
     display: none;
   }
 }
@@ -212,10 +232,18 @@
   @include sm {
     display: none;
   }
+
+  @include ms {
+    display: none;
+  }
 }
 
 .order-event-dots {
   @include sm {
+    display: none;
+  }
+
+  @include ms {
     display: none;
   }
 }

@@ -124,6 +124,10 @@
   @include sm {
     display: none;
   }
+
+  @include ms {
+    display: none;
+  }
 }
 
 .withdrawal-date {
@@ -132,6 +136,10 @@
   @include sm {
     width: 100px;
   }
+
+  @include ms {
+    text-align: start;
+  }
 }
 
 .withdrawal-method {
@@ -139,6 +147,10 @@
 
   @include sm {
     width: 100px;
+  }
+
+  @include ms {
+    width: 210px;
   }
 }
 
@@ -152,6 +164,10 @@
   @include sm {
     display: none;
   }
+
+  @include ms {
+    display: none;
+  }
 }
 
 .withdrawal-id {
@@ -160,6 +176,10 @@
   font-weight: var(--fw-semi-bold);
 
   @include sm {
+    display: none;
+  }
+
+  @include ms {
     display: none;
   }
 }
@@ -186,10 +206,18 @@
   @include sm {
     display: none;
   }
+
+  @include ms {
+    display: none;
+  }
 }
 
 .withdrawal-table-dots {
   @include sm {
+    display: none;
+  }
+
+  @include ms {
     display: none;
   }
 }

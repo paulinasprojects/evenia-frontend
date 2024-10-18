@@ -26,7 +26,7 @@ const AddBank = () => {
           >
             Back
         </button>
-        <button className="add-bank-save-button">Save</button>
+        <button className="add-bank-save-button" onClick={() => navigate("/bank")}>Save</button>
       </div>
     </div>
   )

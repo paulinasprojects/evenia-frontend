@@ -26,6 +26,10 @@
   @include sm {
     padding-top: 80px;
   }
+
+  @include ms {
+    padding-top: 40px;
+  }
 }
 
 .add-ticket-price-input-container {
@@ -42,6 +46,10 @@
   @include sm {
     margin-left: 20px;
   }
+
+  @include ms {
+    justify-content: unset;
+  }
 }
 
 .add-ticket-date-time-container {
@@ -57,6 +65,11 @@
   
   @include sm {
     margin-left: 20px;
+  }
+
+  @include ms {
+    align-items: start;
+    justify-content: unset;
   }
 }
 
@@ -76,6 +89,10 @@
     display: flex;
     margin-left: 10px;
     gap: 10px;
+  }
+
+  @include ms {
+    justify-content: unset;
   }
 }
 

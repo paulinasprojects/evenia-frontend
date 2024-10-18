@@ -9,7 +9,7 @@ const WithdrawalTable = () => {
           <tr>
             <th className="withdrawal-th-id">ID</th>
             <th className="withdrawal-date">Date</th>
-            <th>Total</th>
+            <th className="withdrawal-total">Total</th>
             <th className="withdrawal-method">Method</th>
             <th className="withdrawal-status">Status</th>
             <th className="withdrawal-dots"/>

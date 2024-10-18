@@ -163,6 +163,10 @@
     text-align: initial;
     padding-left: 24px;
   }
+
+  @include ms {
+    text-align: start;
+  }
 }
 
 .related-event-card-container {
@@ -181,6 +185,10 @@
   @include sm {
     display: flex;
     flex-direction: column;
+  }
+
+  @include ms {
+    padding-left: 40px;
   }
 }
 

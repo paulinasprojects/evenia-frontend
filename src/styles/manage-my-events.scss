@@ -15,6 +15,11 @@
     gap: 50px;
     margin-left: 15px;
   }
+
+  @include ms {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 .manage-event-title {
@@ -56,8 +61,13 @@
   gap: 44px;
   
   @include sm {
-    justify-content: center;
+    justify-content: start;
     margin-left: 5px;
+  }
+
+  @include ms {
+    justify-content: start;
+    margin-left: 10px;
   }
 }
 
@@ -75,6 +85,10 @@
   @include sm {
     width: 200px;
   }
+
+  @include ms {
+    width: 350px;
+  }
 }
 
 .manage-events-organizer {
@@ -89,16 +103,16 @@
   @include sm {
     width: 100px;
   }
+
+  @include ms {
+    width: 100px;
+  }
 }
 
 .event-table-container {
   display: flex;
   align-items: center;
   background-color: var(--header);
-
-  @include sm {
-    justify-content: center;
-  }
 }
 
 .manage-event-pagination-container {

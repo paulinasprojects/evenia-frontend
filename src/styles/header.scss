@@ -29,6 +29,11 @@
   @include sm {
     display: none;
   }
+
+  @include ms {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .events-header-container {
@@ -47,6 +52,10 @@
   @include sm {
     gap: 14px;
     margin-left: 250px;
+  }
+
+  @include ms {
+    margin-left: 50px;
   }
 }
 
@@ -131,6 +140,11 @@
   @include sm {
     margin-right: 50px;
   }
+
+  @include ms {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .events-user-button-container {
@@ -149,6 +163,11 @@
   @include sm {
     margin-left: 0;
     margin-right: 300px;
+  }
+
+  @include ms {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -178,6 +197,7 @@
   @include sm {
     gap: 8px;
   }
+
 }
 
 .user-image {
@@ -246,6 +266,11 @@
     width: 190px;
     overflow: hidden;
   }
+
+  @include ms {
+    width: 225px;
+    overflow: hidden;
+  }
 }
 
 .menu-item {
@@ -270,6 +295,11 @@
   @include sm {
     top: 40px;
     width: 170px;
+    overflow: hidden;
+  }
+
+  @include ms {
+    width: 220px;
     overflow: hidden;
   }
 }

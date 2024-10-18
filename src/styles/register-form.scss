@@ -20,6 +20,11 @@
     margin-left: 0;
     width: 430px;
   }
+
+  @include ms {
+    margin-top: 90px;
+    margin-left: 120px;
+  }
 }
 
 .register-form-form-container {

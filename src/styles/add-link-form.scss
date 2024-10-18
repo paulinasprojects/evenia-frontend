@@ -43,6 +43,10 @@
   @include sm {
     width: 350px;
   }
+
+  @include ms {
+    width: 650px;
+  }
 }
 
 .add-link-description {
@@ -63,6 +67,10 @@
   @include sm {
     width: 350px;
   }
+
+  @include ms {
+    width: 650px;
+  }
 }
 
 .add-link-button-container {
@@ -80,6 +88,10 @@
   @include sm {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  @include ms {
+    margin-left: 20px;
   }
 }
 

@@ -21,7 +21,7 @@ const AddLinkForm = () => {
         >
           Back
         </button>
-        <button className="add-link-save-button">Save</button>
+        <button className="add-link-save-button" onClick={() => navigate("/manage-my-events")}>Save</button>
       </div>
     </div>
   )

@@ -17,6 +17,10 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  @include ms {
+    margin-left: -0;
+  }
 }
 
 .bank-table thead {
@@ -44,6 +48,10 @@
     font-size: 15px;
     width: 190px;
   }
+
+  @include ms {
+    width: 200px;
+  }
 }
 
 .bank-table-bank-name {
@@ -53,6 +61,11 @@
   @include sm {
     font-size: 15px;
     width: 90px;
+  }
+
+  @include ms {
+    width: 90px;
+    white-space: nowrap;
   }
 }
 
@@ -64,12 +77,21 @@
     font-size: var(--paragraph-size-xs);
     width: 0;
   }
+
+  @include ms {
+    width: 100px;
+    white-space: nowrap;
+  }
 }
 
 .bank-table-dots {
   width: 105px;
 
   @include sm {
+    display: none;
+  }
+
+  @include ms {
     display: none;
   }
 }
@@ -81,6 +103,10 @@
     width: 150px;
     font-size: 15px;
   }
+
+  @include ms {
+    width: 150px;
+  }
 }
 
 .bank-name-td {
@@ -89,6 +115,10 @@
   @include sm {
     width: 110px;
     font-size: 15px;
+  }
+
+  @include ms {
+    width: 190px;
   }
 }
 
@@ -111,6 +141,10 @@
   border: none;
   background-color: var(--header);
   color: var(--white);
+
+  @include ms {
+    width: 100px;
+  }
 }
 
 

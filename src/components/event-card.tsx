@@ -7,14 +7,15 @@ interface EventCardProps {
   author?: string;
   image?: string;
   type?: string;
+  className?: string;
   onClick?: () => void;
 }
 
 
-const EventCard = ({ date, title, author, image, onClick, type }: EventCardProps) => {
+const EventCard = ({ date, title, author, image, onClick, type, className }: EventCardProps) => {
   return (
     <div className="event-card-container" onClick={onClick}>
-      <img src={image} alt="" />
+      <img src={image} className={className}/>
       <div className={classNames(type ? "type-card" : "event-card")}>
         {type && (
           <span className="event-type">{type}</span>

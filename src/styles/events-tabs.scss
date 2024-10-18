@@ -18,6 +18,10 @@
     align-items: center;
     padding-left: 0;
   }
+
+  @include ms {
+    flex-direction: column;
+  }
 }
 
 .is-active {
