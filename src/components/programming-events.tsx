@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import EventCard from "./event-card";
-import { DesignEventsData } from "@/data/events";
+import {ProgrammingEventsData } from "@/data/events";
 
 import "@/styles/event-card.scss";
 
@@ -10,7 +10,7 @@ const ProgrammingEvents = () => {
   return (
     <>
     <div className="all-events">
-      {DesignEventsData.map((event) => (
+      {ProgrammingEventsData.map((event) => (
         <EventCard
         key={event.id}
         image={event.image}
