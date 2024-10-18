@@ -20,7 +20,10 @@
   }
 
   @include ms {
-    flex-direction: column;
+    display: grid;
+    gap: 30px;
+    padding-top: 30px;
+    grid-template-columns: repeat(2, 300px);
   }
 }
 
@@ -33,6 +36,11 @@
   justify-content: center;
   cursor: pointer;
   background-color: var(--majorelle-blue);
+
+  @include ms {
+    padding: 10px;
+  }
+
 }
 
 .tab-container {

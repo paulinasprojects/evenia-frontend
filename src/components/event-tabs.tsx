@@ -4,6 +4,8 @@ import AllEvents from "./all-events";
 import EventContent from "./events-content";
 
 import "@/styles/events-tabs.scss";
+import DesignEvents from "./design-events";
+import ProgrammingEvents from "./programming-events";
 
 const EventTabs = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -13,9 +15,9 @@ const EventTabs = () => {
       case 1:
       return <AllEvents/>;
       case 2:
-      return <AllEvents/>;
+      return <DesignEvents/>;
       case 3: 
-      return <AllEvents/>;
+      return <ProgrammingEvents/>;
       case 4: 
       return <AllEvents/>;
       case 5: 

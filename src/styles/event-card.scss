@@ -21,6 +21,11 @@
     padding-right: 0;
   
   }
+
+  @include ms {
+    padding-left: 0px;
+    margin-left: 80px;
+  }
 }
 
 .events-button-container {
@@ -55,9 +60,13 @@
   cursor: pointer;
 }
 
-.event-card-image {
-  width: 200px;
+.event-tab-image {
+  width: 294px;
+  height: 174px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
 }
+
 
 .event-card {
   display: flex;
