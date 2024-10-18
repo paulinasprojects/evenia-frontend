@@ -8,6 +8,7 @@ import DesignEvents from "./design-events";
 import ProgrammingEvents from "./programming-events";
 import DigitalMarketingEvents from "./digital-marketing-events";
 import FinanceEvents from "./finance-events";
+import SocialMediaEvents from "./social-media-events";
 
 const EventTabs = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -25,7 +26,7 @@ const EventTabs = () => {
       case 5: 
       return <FinanceEvents/>;
       case 6: 
-      return <AllEvents/>;
+      return <SocialMediaEvents/>;
       case 7: 
       return <AllEvents/>;
       case 8: 
