@@ -8,16 +8,28 @@
 .features-title {
   padding-left: 80px;
   padding-top: 54px;
+
+  @include sm {
+    padding-left: 20px;
+  }
 }
 
 .features-container h1 {
   font-size: var(--heading-size-xxl);
   font-weight: var(--fw-bold);
+
+  @include sm {
+    font-size: var(--heading-size-lg);
+  }
 }
 
 .features-list-container {
   padding-top: 70px;
   padding-left: 80px;
+
+  @include sm {
+    padding-left: 40px;
+  }
 }
 
 .features-lists {
@@ -42,6 +54,7 @@
   background-color: #8170f7;
   border-radius: 50%;
   margin-bottom: 24px;
+  
 }
 
 .features-globe {
@@ -58,6 +71,10 @@
 
   
   @include md {
+    padding-left: 40px;
+  }
+
+  @include sm {
     padding-left: 40px;
   }
 

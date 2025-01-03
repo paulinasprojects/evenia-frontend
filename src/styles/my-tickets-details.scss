@@ -36,6 +36,10 @@
     margin-left: 222px;
   }
 
+  @include ms {
+    margin-left: 120px;
+  }
+
   @include sm {
     margin-left: 0;
     width: 430px;

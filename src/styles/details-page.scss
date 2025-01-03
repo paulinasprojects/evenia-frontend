@@ -100,6 +100,11 @@
     padding-left: 50px;
   }
 
+  @include ms {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   @include sm {
     flex-direction: column;
     padding-left: 40px;
@@ -148,6 +153,10 @@
   padding-top: 54px;
   padding-left: 80px;
   padding-bottom: 50px;
+
+  @include sm {
+    padding-left: 40px;
+  }
 }
 
 .related-events-title {
@@ -159,14 +168,14 @@
     text-align: center;
   }
 
-  @include sm {
-    text-align: initial;
-    padding-left: 24px;
+  @include ms {
+    text-align: center;
   }
 
-  @include ms {
-    text-align: start;
+  @include sm {
+    text-align: initial;
   }
+
 }
 
 .related-event-card-container {
@@ -183,8 +192,10 @@
   }
 
   @include sm {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   @include ms {
