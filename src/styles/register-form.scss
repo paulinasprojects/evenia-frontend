@@ -17,8 +17,9 @@
   }
 
   @include sm {
-    margin-left: 0;
-    width: 430px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 380px;
   }
 
   @include ms {
@@ -67,7 +68,7 @@
   margin-bottom: 14px;
 
   @include sm {
-    width: 350px;
+    width: 290px;
   }
 }
 
@@ -100,7 +101,7 @@
   cursor: pointer;
 
   @include sm {
-    width: 350px;
+    width: 290px;
   }
 }
 
@@ -124,7 +125,7 @@
   cursor: pointer;
 
   @include sm {
-    width: 350px;
+    width: 290px;
   }
 }
 
