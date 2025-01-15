@@ -31,7 +31,9 @@
   }
 
   @include ms {
-    display: none;
+    width: 80px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
