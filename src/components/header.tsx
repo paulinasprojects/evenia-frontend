@@ -5,7 +5,8 @@ import logo from '/evenia-logo.svg';
 import "@/styles/header.scss";
 import UsernameMenu from "./username-menu";
 
-const user = true;
+// You can flip this to true to see the header when a user is logged in
+const user = false;
 
 const Header = () => {
 

@@ -2,7 +2,7 @@
 
 .register-form-container {
   width: 562px;
-  height: 620px;
+  height: 100vh;
   margin-top: 84px;
   margin-bottom: 84px;
   margin-left: 437px;
@@ -12,8 +12,10 @@
   border-radius: 15px;
 
   @include md {
+    height: 50%;
     margin-top: 150px;
     margin-left: 205px;
+    padding-bottom: 30px;
   }
 
   @include sm {
