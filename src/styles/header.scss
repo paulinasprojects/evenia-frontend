@@ -31,7 +31,7 @@
   }
 
   @include ms {
-    width: 80px;
+    width: 110px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -113,6 +113,10 @@
 
   @include md {
     width: 350px;
+  }
+
+  @include ms {
+    width: 320px;
   }
 
   @include sm {
@@ -356,6 +360,10 @@
   border-radius: 150px;
   border: 2px solid var(--majorelle-blue);
   cursor: pointer;
+
+  @include ms {
+    width: 120px;
+  }
 
   @include sm {
     width: 100px;
