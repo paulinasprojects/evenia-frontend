@@ -3,6 +3,14 @@
 .my-tickets-back-button-container {
   padding-top: 54px;
   padding-left: 80px;
+
+  @include ms {
+    padding-left: 40px;
+  }
+
+  @include sm {
+    padding-left: 20px;
+  }
 }
 
 .back-button {
