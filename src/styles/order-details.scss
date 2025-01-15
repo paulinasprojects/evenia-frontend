@@ -1,5 +1,19 @@
 @import "./responsive.scss";
 
+.order-details-back-button-container {
+  padding-top: 54px;
+  padding-left: 80px;
+
+  @include ms {
+    padding-left: 40px;
+  }
+
+  @include sm {
+    padding-left: 20px;
+  }
+}
+
+
 .order-details-container {
   height: 100vh;
   margin-top: 54px;

@@ -5,7 +5,7 @@
   padding-left: 80px;
 
   @include ms {
-    padding-left: 40px;
+    padding-left: 120px;
   }
 
   @include sm {
@@ -41,10 +41,14 @@
   margin-left: 447px;
 
   @include md {
-    margin-left: 222px;
+    width: 780px;
+    height: 950px;
+    margin-left: 120px;
   }
 
   @include ms {
+    width: 540px;
+    height: 832px;
     margin-left: 120px;
   }
 
@@ -57,7 +61,8 @@
 .my-ticket-image {
   
   @include md {
-    width: 545px;
+    width: 540px;
+    // width: 100%;
   }
 
   @include sm {
@@ -204,6 +209,7 @@ color: var(--white);
   margin-left: 30px;
   margin-right: 30px;
 
+
   @include sm {
     margin-top: 35px;
   }
@@ -220,6 +226,10 @@ color: var(--white);
   font-weight: var(--fw-semi-bold);
   border: none;
   cursor: pointer;
+
+  @include md {
+    width: 100%;
+  }
 
   @include sm {
     width: 350px;

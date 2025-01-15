@@ -6,7 +6,7 @@ import OrderDetailsTable from "@/components/order-details-table";
 const OrderDetailsPage = () => {
   return (
     <div className="">
-      <div className="my-tickets-back-button-container">
+      <div className="order-details-back-button-container">
         <Link to="/orders">
           <button className="back-button">Back to orders</button>
         </Link>
